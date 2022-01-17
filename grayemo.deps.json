@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "grayemo/1.0.0": {
+        "runtime": {
+          "grayemo.dll": {}
+        },
+        "resources": {
+          "ru/grayemo.resources.dll": {
+            "locale": "ru"
+          },
+          "uk/grayemo.resources.dll": {
+            "locale": "uk"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "grayemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
