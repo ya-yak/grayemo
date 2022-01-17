@@ -1,5 +1,10 @@
 ﻿using System.Diagnostics;
 using System.Text.Json;
+using System.Text.RegularExpressions;
+
+string pattern = @"(?<=\\)[^\\/:*?<>|]+(?=.exe)|(?<=\\)[^\\/:*?<>|]+$";
+Regex regex = new Regex(pattern);
+MatchCollection matchCollection;
 
 //-- IF NO ANOTHER 'GRAYEMOPROCESS' IS OPEN --
 
@@ -15,6 +20,8 @@ if (Process.GetProcessesByName("grayemoProcess").Length < 2)
 
         DataSet data = JsonSerializer.Deserialize<DataSet>(jsonString);
 
+        bool gameMode = false;
+
         while (true)
         {
 
@@ -29,19 +36,17 @@ if (Process.GetProcessesByName("grayemoProcess").Length < 2)
                     //-- IF PROCESS IS OPEN --
 
                     if (Process.GetProcessesByName(game.name).Length != 0
-                        && Process.GetProcessesByName(prcToKill).Length != 0)
+                        && Process.GetProcessesByName(regex.Matches(prcToKill)[0].Value).Length != 0)
                     {
 
-                        foreach (Process process in Process.GetProcessesByName(prcToKill))
+                        foreach (Process process in Process.GetProcessesByName(regex.Matches(prcToKill)[0].Value))
                             process.Kill();
 
                     }
 
                     //-- IF PROCESS IS NOT OPEN --
 
-                    else Process.Start(prcToKill);
-
-
+                    else if (Process.GetProcessesByName(regex.Matches(prcToKill)[0].Value).Length == 0) runProcess(prcToKill);
 
                 }
 
@@ -53,21 +58,52 @@ if (Process.GetProcessesByName("grayemoProcess").Length < 2)
                     //-- IF PROCESS IS OPEN --
 
                     if (Process.GetProcessesByName(game.name).Length != 0
-                        && Process.GetProcessesByName(prcToRun).Length == 0)
-                        Process.Start(prcToRun);
+                        && Process.GetProcessesByName(regex.Matches(prcToRun)[0].Value).Length == 0)
+                        runProcess(prcToRun);
 
                     //-- IF PROCESS IS NOT OPEN --
 
-                    else
+                    else if (Process.GetProcessesByName(regex.Matches(prcToRun)[0].Value).Length != 0)
                     {
 
-                        foreach (Process process in Process.GetProcessesByName(prcToRun))
+                        foreach (Process process in Process.GetProcessesByName(regex.Matches(prcToRun)[0].Value))
                             process.Kill();
 
                     }
+                }
+
+                //-- RUN ON START
+
+                foreach (string runOnStart in game.runOnStart)
+                {
+
+                    if (Process.GetProcessesByName(game.name).Length != 0
+                        && Process.GetProcessesByName(regex.Matches(runOnStart)[0].Value).Length == 0 && !gameMode)
+                        runProcess(runOnStart);
 
                 }
+
+                //-- RUN ON EXIT
+
+                foreach (string runOnExit in game.runOnExit)
+                {
+
+                    if (Process.GetProcessesByName(game.name).Length == 0
+                        && Process.GetProcessesByName(regex.Matches(runOnExit)[0].Value).Length == 0 && gameMode)
+                        runProcess(runOnExit);
+
+                }
+
+                if (Process.GetProcessesByName(game.name).Length != 0) break;
+
             }
+
+            //-- SET GAME MODE --
+
+            gameMode = false;
+
+            foreach (Game game in data.games)
+                if (Process.GetProcessesByName(game.name).Length != 0) gameMode = true;
 
             //-- SLEEP FOR 2 MINUTES --
 
@@ -85,3 +121,20 @@ if (Process.GetProcessesByName("grayemoProcess").Length < 2)
 //-- EXIT --
 
 else Environment.Exit(0);
+
+//-- CREATE COMMAND PROMPT PROCESS --
+
+void runProcess(string prc)
+{
+
+    Process process = new Process();
+    ProcessStartInfo startInfo = new ProcessStartInfo();
+
+    startInfo.CreateNoWindow = true;
+    startInfo.FileName = "cmd.exe";
+    startInfo.Arguments = "/C " + prc;
+
+    process.StartInfo = startInfo;
+    process.Start();
+
+}
