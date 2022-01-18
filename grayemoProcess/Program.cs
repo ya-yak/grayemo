@@ -13,6 +13,10 @@ if (Process.GetProcessesByName("grayemoProcess").Length < 2)
 
     string jsonString = File.ReadAllText("data.json");
 
+    Dictionary<string, bool> queue;
+
+    List<string> gamesRunning = new List<string>();
+
     //-- IF JSON IS NOT EMPTY --
 
     if (jsonString != null)
@@ -20,10 +24,10 @@ if (Process.GetProcessesByName("grayemoProcess").Length < 2)
 
         DataSet data = JsonSerializer.Deserialize<DataSet>(jsonString);
 
-        bool gameMode = false;
-
         while (true)
         {
+
+            queue = new Dictionary<string, bool>();
 
             foreach (Game game in data.games)
             {
@@ -33,21 +37,29 @@ if (Process.GetProcessesByName("grayemoProcess").Length < 2)
                 foreach (string prcToKill in game.prcToKill)
                 {
 
-                    //-- IF PROCESS IS OPEN --
+                    //-- KILL IF GAME IS OPEN --
 
-                    if (Process.GetProcessesByName(game.name).Length != 0
-                        && Process.GetProcessesByName(regex.Matches(prcToKill)[0].Value).Length != 0)
+                    if (Process.GetProcessesByName(game.name).Length != 0)
                     {
 
-                        foreach (Process process in Process.GetProcessesByName(regex.Matches(prcToKill)[0].Value))
-                            process.Kill();
+                        if (Process.GetProcessesByName(regex.Matches(prcToKill)[0].Value).Length != 0)
+                            queue[prcToKill] = false;
 
                     }
 
-                    //-- IF PROCESS IS NOT OPEN --
+                    //-- RUN IF GAME IS NOT OPEN --
 
-                    else if (Process.GetProcessesByName(regex.Matches(prcToKill)[0].Value).Length == 0) runProcess(prcToKill);
+                    else
+                    {
 
+                        if (Process.GetProcessesByName(regex.Matches(prcToKill)[0].Value).Length == 0)
+                        {
+
+                            if (!queue.ContainsKey(prcToKill) || queue[prcToKill] != false)
+                                queue[prcToKill] = true;
+
+                        }
+                    }
                 }
 
                 //-- PROCESSES TO RUN --
@@ -55,55 +67,66 @@ if (Process.GetProcessesByName("grayemoProcess").Length < 2)
                 foreach (string prcToRun in game.prcToRun)
                 {
 
-                    //-- IF PROCESS IS OPEN --
+                    //-- RUN IF GAME IS OPEN --
 
-                    if (Process.GetProcessesByName(game.name).Length != 0
-                        && Process.GetProcessesByName(regex.Matches(prcToRun)[0].Value).Length == 0)
-                        runProcess(prcToRun);
-
-                    //-- IF PROCESS IS NOT OPEN --
-
-                    else if (Process.GetProcessesByName(regex.Matches(prcToRun)[0].Value).Length != 0)
+                    if (Process.GetProcessesByName(game.name).Length != 0)
                     {
 
-                        foreach (Process process in Process.GetProcessesByName(regex.Matches(prcToRun)[0].Value))
-                            process.Kill();
+                        if (Process.GetProcessesByName(regex.Matches(prcToRun)[0].Value).Length == 0)
+                            queue[prcToRun] = true;
 
+                    }
+
+                    //-- KILL IF GAME IS NOT OPEN --
+
+                    else
+                    {
+
+                        if (Process.GetProcessesByName(regex.Matches(prcToRun)[0].Value).Length != 0)
+                        {
+
+                            if (!queue.ContainsKey(prcToRun) || queue[prcToRun] != true)
+                                queue[prcToRun] = false;
+
+                        }
                     }
                 }
 
-                //-- RUN ON START
+                //-- RUN ON START --
 
-                foreach (string runOnStart in game.runOnStart)
+                if (Process.GetProcessesByName(game.name).Length != 0 && !gamesRunning.Contains(game.name))
                 {
 
-                    if (Process.GetProcessesByName(game.name).Length != 0
-                        && Process.GetProcessesByName(regex.Matches(runOnStart)[0].Value).Length == 0 && !gameMode)
+                    foreach (string runOnStart in game.runOnStart)
                         runProcess(runOnStart);
 
+                    gamesRunning.Add(game.name);
+
                 }
 
-                //-- RUN ON EXIT
 
-                foreach (string runOnExit in game.runOnExit)
+                //-- RUN ON EXIT --
+
+                if (Process.GetProcessesByName(game.name).Length == 0 && gamesRunning.Contains(game.name))
                 {
 
-                    if (Process.GetProcessesByName(game.name).Length == 0
-                        && Process.GetProcessesByName(regex.Matches(runOnExit)[0].Value).Length == 0 && gameMode)
+                    foreach (string runOnExit in game.runOnExit)
                         runProcess(runOnExit);
+
+                    gamesRunning.Remove(game.name);
 
                 }
 
-                if (Process.GetProcessesByName(game.name).Length != 0) break;
+                //-- ACTIONS FOR EACH PROCESS --
 
+                foreach (KeyValuePair<string, bool> prc in queue)
+                {
+
+                    if (prc.Value == true) runProcess(prc.Key);
+                    else killProcess(prc.Key);
+
+                }
             }
-
-            //-- SET GAME MODE --
-
-            gameMode = false;
-
-            foreach (Game game in data.games)
-                if (Process.GetProcessesByName(game.name).Length != 0) gameMode = true;
 
             //-- SLEEP FOR 2 MINUTES --
 
@@ -136,5 +159,15 @@ void runProcess(string prc)
 
     process.StartInfo = startInfo;
     process.Start();
+
+}
+
+//-- KILL PROCESS BY NAME --
+
+void killProcess(string prc)
+{
+
+    foreach (Process process in Process.GetProcessesByName(regex.Matches(prc)[0].Value))
+        process.Kill();
 
 }
