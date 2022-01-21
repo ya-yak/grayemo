@@ -40,25 +40,16 @@ if (Process.GetProcessesByName("grayemoProcess").Length < 2)
                     //-- KILL IF GAME IS OPEN --
 
                     if (Process.GetProcessesByName(game.name).Length != 0)
-                    {
-
-                        if (Process.GetProcessesByName(regex.Matches(prcToKill)[0].Value).Length != 0)
-                            queue[prcToKill] = false;
-
-                    }
+                        queue[prcToKill] = false;
 
                     //-- RUN IF GAME IS NOT OPEN --
 
                     else
                     {
 
-                        if (Process.GetProcessesByName(regex.Matches(prcToKill)[0].Value).Length == 0)
-                        {
+                        if (!queue.ContainsKey(prcToKill) || queue[prcToKill] != false)
+                            queue[prcToKill] = true;
 
-                            if (!queue.ContainsKey(prcToKill) || queue[prcToKill] != false)
-                                queue[prcToKill] = true;
-
-                        }
                     }
                 }
 
@@ -70,25 +61,16 @@ if (Process.GetProcessesByName("grayemoProcess").Length < 2)
                     //-- RUN IF GAME IS OPEN --
 
                     if (Process.GetProcessesByName(game.name).Length != 0)
-                    {
-
-                        if (Process.GetProcessesByName(regex.Matches(prcToRun)[0].Value).Length == 0)
-                            queue[prcToRun] = true;
-
-                    }
+                        queue[prcToRun] = true;
 
                     //-- KILL IF GAME IS NOT OPEN --
 
                     else
                     {
 
-                        if (Process.GetProcessesByName(regex.Matches(prcToRun)[0].Value).Length != 0)
-                        {
+                        if (!queue.ContainsKey(prcToRun) || queue[prcToRun] != true)
+                            queue[prcToRun] = false;
 
-                            if (!queue.ContainsKey(prcToRun) || queue[prcToRun] != true)
-                                queue[prcToRun] = false;
-
-                        }
                     }
                 }
 
@@ -116,16 +98,28 @@ if (Process.GetProcessesByName("grayemoProcess").Length < 2)
                     gamesRunning.Remove(game.name);
 
                 }
+            }
 
-                //-- ACTIONS FOR EACH PROCESS --
+            //-- ACTIONS FOR EACH PROCESS --
 
-                foreach (KeyValuePair<string, bool> prc in queue)
+            foreach (KeyValuePair<string, bool> prc in queue)
+            {
+
+                if (prc.Value == true)
                 {
 
-                    if (prc.Value == true) runProcess(prc.Key);
-                    else killProcess(prc.Key);
+                    if (Process.GetProcessesByName(regex.Matches(prc.Key)[0].Value).Length == 0)
+                        runProcess(prc.Key);
 
                 }
+                else
+                {
+
+                    if (Process.GetProcessesByName(regex.Matches(prc.Key)[0].Value).Length != 0)
+                        killProcess(prc.Key);
+
+                }
+
             }
 
             //-- SLEEP FOR 2 MINUTES --
