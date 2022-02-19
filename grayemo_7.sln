@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grayemo", "grayemo_7\grayemo.csproj", "{37DD0842-0D62-4269-BBC4-16D1EC95547E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37DD0842-0D62-4269-BBC4-16D1EC95547E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DD0842-0D62-4269-BBC4-16D1EC95547E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DD0842-0D62-4269-BBC4-16D1EC95547E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DD0842-0D62-4269-BBC4-16D1EC95547E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F65675E8-0656-4757-BEC7-8D344DF02581}
+	EndGlobalSection
+EndGlobal
