@@ -58,73 +58,382 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="addItemButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="captionLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 46</value>
+  </data>
+  <data name="&gt;&gt;descrLabel9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;captionLabel2.Name" xml:space="preserve">
+    <value>captionLabel2</value>
+  </data>
+  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;descrLabel7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mainPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="captionLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 46</value>
+  </data>
+  <data name="&gt;&gt;captionLabel3.Name" xml:space="preserve">
+    <value>captionLabel3</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;descrLabel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;descrLabel5.Name" xml:space="preserve">
+    <value>descrLabel5</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 9pt</value>
+  </data>
+  <data name="&gt;&gt;captionLabel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;captionLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="nextButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="descrLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 254</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel9.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;descrLabel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="descrLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 254</value>
+  </data>
+  <data name="&gt;&gt;descrLabel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="captionLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="descrLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="descrLabel9.Text" xml:space="preserve">
+    <value>- by creating shortcut in 'Autostart' folder in 'Start' menu
+- by adding in 'Autostart' list in Task Manager
+- by adding in Task Scheduler.</value>
+  </data>
+  <data name="captionLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 46</value>
+  </data>
+  <data name="captionLabel4.Text" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="&gt;&gt;captionLabel4.Name" xml:space="preserve">
+    <value>captionLabel4</value>
+  </data>
+  <data name="panel3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;captionLabel3.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="descrLabel5.Text" xml:space="preserve">
+    <value>'Processes to kill' defines processes which should be killed if a game is open and ran if the game is closed.
+'Processes to run' is vice versa of 'Processes to kill'.</value>
+  </data>
+  <data name="&gt;&gt;descrLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;captionLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="backButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;descrLabel2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;backButton.Name" xml:space="preserve">
+    <value>backButton</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel9.Name" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="descrLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;backButton.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;captionLabel6.Name" xml:space="preserve">
+    <value>captionLabel6</value>
+  </data>
+  <data name="descrLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="captionLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="captionLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 46</value>
+  </data>
+  <data name="nextButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;descrLabel6.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="descrLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 23</value>
+  </data>
+  <data name="descrLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 254</value>
+  </data>
+  <data name="descrLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="descrLabel7.Text" xml:space="preserve">
+    <value>In order to edit these lists, you should choose the prefered game.
+To desselect an item, double click on the list.
+You can remove a item from the list by selecting it and clicking the cross button.</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;descrLabel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 300</value>
+  </data>
+  <data name="captionLabel8.Text" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="captionLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;descrLabel9.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="captionLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="descrLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="captionLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 18pt</value>
+  </data>
+  <data name="captionLabel6.Text" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="&gt;&gt;descrLabel8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;descrLabel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;descrLabel7.Parent" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="descrLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="&gt;&gt;captionLabel5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="backButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKM+VkT1I
-        w1AUhU9TpSJVETuIOASpThZERRwlikWwUNoKrTqYvPQPmjQkKS6OgmvBwZ/FqoOLs64OroIg+APi6OSk
-        6CIl3pcUWoQKXni8j/PeOdx3HyDUSkyzOiYATbfNRFQS05lVMfAKH3oRxAj6ZWYZseRiCm3r655uU91F
-        eBb+Vz1q1mKATySeY4ZpE28Qz2zaBud94hAryCrxOfG4SQ0SP3Jd8fiNc95lgWeGzFRinjhELOZbWGlh
-        VjA14mnisKrplC+kPVY5b3HWShXW6JO/MJjVV5JcpzWMKJYQQxwiFFRQRAk2IrTrpFhI0LnUxj/k+uPk
-        UshVBCPHAsrQILt+8D/4PVsrNzXpJQUloPPFcT5GgcAuUK86zvex49RPAP8zcKU3/eUaMPtJerWphY+A
-        vm3g4rqpKXvA5Q4w+GTIpuxKflpCLge8n9E3ZYCBW6B7zZtb4xynD0CKZrV8AxwcAmN5yl5v8+6u1rn9
-        ecedH6QfUiRymq0ibPwAAAAJcEhZcwAADrwAAA68AZW8ckkAAAAHdElNRQfmAQ4MOydB1K+LAAABKElE
-        QVQ4T5WSMUtCYRiFb9rSGLXkEEE4FDgE4T8Il+gHSEMNtdkfqIYGqbWhyQb/Qw3VFLQnRZsOStDk1NCS
-        Vs/5ODcNvHY98ID3nPO++n3XaFKd3pUzsAPvULOdXgwtQxu+tcR2OjGQhZqHP+HIUToxsAs9L3iG+RCc
-        3WxPhQ9jRHkRmh7+gFIc7MM9FIORIPJz6IMWVG2HQLcpswFztv8If9Md8QI5RyG8dKBLObT9K7wFeHJH
-        bMHgyDzkoeNQZ1t3FMTzibMvuLA9EKb+GBWXxAPMOtsALZXfgqUwNEqEVy7qNWnhKjwOeXuujhaFArx5
-        QN/6CvE7r0PW1WRROvbAMLqfvCvjRXEGbj0YcwAZV/4X5TXoevjadnoxNA06in76iu0ERdEPAwz3iik7
-        rwwAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAABgmlDQ1BJQ0MgcHJvZmlsZQAAKM+VkTlI
+        A0EYhb+siiKKgilELLZQKwNeiKVEUQQFiRHiUbi7MVHIbsJuxMZSsBUsPBqvwsZaWwtbQRA8QCytrBRt
+        RNZ/NkKCEMGBYT7ezHvMvAHtIGPZXmUX2E7ejY1G9cTMrF79jEYTjXQTMSwvNzE1Eqfs+LglpNabiMri
+        f6M+uehZENKFB62cmxdeEO5fzecU7wiHrSUjKXwq3OnKBYXvlW4W+EVxOmBNZYbdeGxIOCysp0vYLGFr
+        ybWF+4TbkrYj+VqiwEnFa4rtzIr1c0/1wrpFZ3pK6TJbGWWMCSbRMVlhmQx5IrI6onjEZD9axt8S+CfF
+        ZYprGUscw2SxMQI/6g9+d+ulensKSXVRqHry/bd2qN6Cr03f/zz0/a8jqHiEC6fozx7AwLvom0WtbR8a
+        1uHssqiZ23C+Ac0POcM1AqlCppZKweuJfNMMNF1D7Vyht599ju8gLl2NX8HuHnSkJXu+zLtrSnv780zQ
+        H9Fv1llyz2GKicAAAAAJcEhZcwAAXEQAAFxEAWtqgMgAAAAHdElNRQfmAhMQNDi7qxE3AAAAgUlEQVQ4
+        T2PABbQr7yUA8XsgXg8VIh5ANf+H4vdQYeIAmmYQToBKEQZomkHOd4JKEQZYNBtApQgDNM0gHACVIgyA
+        iivQNIPweSDeTwQuABmArpkkTLkLoN4gPwxgAM0Q0mIBBrAYQnw6gAE0Q0CY+JQIA2iGkJYXYABqCIHc
+        yMAAACPz6hN7vcPaAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="autoclnCheckBox.Text" xml:space="preserve">
-    <value>Чистити</value>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 300</value>
   </data>
-  <data name="removeButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhmlDQ1BJQ0MgcHJvZmlsZQAAKM+VkT1I
-        w1AUhU9TRZGWDhYRcchQnSyIiugmUSyChdJWaNXB5KV/0KQhSXFxFFwLDv4sVh1cnHV1cBUEwR8QRycn
-        RRcp8b6k0CJU8MLjfZz3zuG++wChXmaa1TUOaLptJmOSmMmuij2v8CGEIGYxIDPLiKcW0+hYX/d0m+ou
-        yrPwvwqqOYsBPpF4jhmmTbxBPL1pG5z3icOsKKvE58RjJjVI/Mh1xeM3zgWXBZ4ZNtPJeeIwsVhoY6WN
-        WdHUiKeII6qmU76Q8VjlvMVZK1dZs0/+wkBOX0lxndYwYlhCHAmIUFBFCWXYiNKuk2IhSedSB/+Q60+Q
-        SyFXCYwcC6hAg+z6wf/g92yt/OSElxSQgO4Xx/kYAXp2gUbNcb6PHadxAvifgSu95a/UgZlP0mstLXIE
-        hLaBi+uWpuwBlzvA4JMhm7Ir+WkJ+TzwfkbflAX6b4G+NW9uzXOcPgBpmtXyDXBwCIwWKHu9w7t72+f2
-        5x13fpB+AJ0Ccrgw95fBAAAACXBIWXMAAA68AAAOvAGVvHJJAAAAB3RJTUUH5gEPDTk1OSWxEwAAAIRJ
-        REFUOE+lk1EKwCAMQ3e8HWMeySP4uxvOny0ZCl2xrbhABpqXigO3c08FrvCxTYosfLHLBct3cziEjOCr
-        3nCHmKwZCIWMB3jZRwMwN8u9cbmLgCpI++UugPpUOrc4FmFVnh8AcP0KBFRh/icysEAvexUCkMmYwUBD
-        Fp/fj2n1OaOTygNB9B237oStggAAAABJRU5ErkJggg==
-</value>
+  <data name="&gt;&gt;descrLabel8.Parent" xml:space="preserve">
+    <value>panel8</value>
   </data>
-  <data name="darkThmCheckBox.Text" xml:space="preserve">
-    <value>Темна тема</value>
+  <data name="&gt;&gt;descrLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="runOnExitButton.Text" xml:space="preserve">
-    <value>Запустити в кінці</value>
+  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
+    <value>mainPanel</value>
   </data>
-  <data name="runOnStartButton.Text" xml:space="preserve">
-    <value>Запустити на п-ку</value>
+  <data name="captionLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="prcToRunButton.Text" xml:space="preserve">
-    <value>Запустити процеси</value>
+  <data name="backButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="prcToKillButton.Text" xml:space="preserve">
-    <value>Зупинити процеси</value>
+  <data name="&gt;&gt;backButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="gamesButton.Text" xml:space="preserve">
-    <value>Список ігор</value>
+  <data name="&gt;&gt;descrLabel5.Parent" xml:space="preserve">
+    <value>panel5</value>
   </data>
-  <data name="browseButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhmlDQ1BJQ0MgcHJvZmlsZQAAKM+VkT1I
-        w1AUhU9TpSKVDnYQcchQBcGCaBFHiWIRLJS2QqsOJi/9gyYNSYqLo+BacPBnserg4qyrg6sgCP6AODo5
-        KbpIifclhRahghce7+O8dw733QcIjQrTrJ5JQNNtMxWXxGxuVQy8wocQghhHTGaWkUgvZtC1vu7pNtVd
-        lGfhfzWg5i0G+ETiOWaYNvEG8cymbXDeJw6zkqwSnxNPmNQg8SPXFY/fOBddFnhm2Myk5onDxGKxg5UO
-        ZiVTI44RR1RNp3wh67HKeYuzVqmxVp/8hcG8vpLmOq0RxLGEBJIQoaCGMiqwEaVdJ8VCis6lLv5h158k
-        l0KuMhg5FlCFBtn1g//B79lahekpLykoAb0vjvMxCgR2gWbdcb6PHad5AvifgSu97a82gNlP0uttLXIE
-        hLaBi+u2puwBlzvA0JMhm7Ir+WkJhQLwfkbflAMGb4H+NW9urXOcPgAZmtXyDXBwCIwVKXu9y7v7Ouf2
-        5x13fpB+AL03csVxzRKYAAAACXBIWXMAAA68AAAOvAGVvHJJAAAAB3RJTUUH5gEPDCowKWJuOQAAAEFJ
-        REFUOE9j+HU8YjUQ/8eB1zAQAlg0oWMBqFLsAIsGdHwYiBtwYBtiDMCH31NqwP9RA0YNAOHBYQC+7EwA
-        R6wGAJWu43CCM5JdAAAAAElFTkSuQmCC
-</value>
+  <data name="captionLabel7.Text" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="descrLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;captionLabel7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="captionLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;captionLabel5.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="descrLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 254</value>
+  </data>
+  <data name="captionLabel3.Text" xml:space="preserve">
+    <value>Add a game</value>
+  </data>
+  <data name="&gt;&gt;descrLabel6.Name" xml:space="preserve">
+    <value>descrLabel6</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="backButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 322</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="backButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="panel4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="descrLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="descrLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="descrLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="captionLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;panel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;descrLabel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="captionLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 18pt</value>
+  </data>
+  <data name="captionLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="descrLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="captionLabel5.Text" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="descrLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="descrLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 254</value>
+  </data>
+  <data name="&gt;&gt;descrLabel9.Name" xml:space="preserve">
+    <value>descrLabel9</value>
+  </data>
+  <data name="captionLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;captionLabel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;captionLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="captionLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="descrLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 254</value>
+  </data>
+  <data name="panel8.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2027,7 +2336,472 @@
         AAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Граємо</value>
+  <data name="descrLabel8.Text" xml:space="preserve">
+    <value>Process management function is held by 'grayemoProcess' program. It may be autoran in several ways:</value>
   </data>
+  <data name="&gt;&gt;descrLabel8.Name" xml:space="preserve">
+    <value>descrLabel8</value>
+  </data>
+  <data name="descrLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 254</value>
+  </data>
+  <data name="descrLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 254</value>
+  </data>
+  <data name="&gt;&gt;descrLabel7.Name" xml:space="preserve">
+    <value>descrLabel7</value>
+  </data>
+  <data name="nextButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;captionLabel9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;descrLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;descrLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="captionLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;nextButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="captionLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 46</value>
+  </data>
+  <data name="nextButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="captionLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 18pt</value>
+  </data>
+  <data name="&gt;&gt;descrLabel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;descrLabel4.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="captionLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;captionLabel9.Name" xml:space="preserve">
+    <value>captionLabel9</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 300</value>
+  </data>
+  <data name="descrLabel1.Text" xml:space="preserve">
+    <value>We have a few tips for you.
+Click on right arrow to continue.</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;captionLabel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="captionLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 46</value>
+  </data>
+  <data name="captionLabel9.Text" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 361</value>
+  </data>
+  <data name="&gt;&gt;descrLabel1.Name" xml:space="preserve">
+    <value>descrLabel1</value>
+  </data>
+  <data name="descrLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 46</value>
+  </data>
+  <data name="&gt;&gt;descrLabel2.Name" xml:space="preserve">
+    <value>descrLabel2</value>
+  </data>
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="panel8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;captionLabel9.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;captionLabel8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="captionLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="captionLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="descrLabel6.Text" xml:space="preserve">
+    <value>'Run on start' defines processes which must be ran at the moment of game start up.
+'Run on exit' defines processes which must be ran at the moment of game closure.</value>
+  </data>
+  <data name="&gt;&gt;descrLabel6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;captionLabel6.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="captionLabel2.Text" xml:space="preserve">
+    <value>How to use</value>
+  </data>
+  <data name="descrLabel2.Text" xml:space="preserve">
+    <value>This is a program for process management during gameplay. With this program, you can define which programs must run or stop if a specific game is open.</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="captionLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 300</value>
+  </data>
+  <data name="descrLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 254</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;descrLabel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel6.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;captionLabel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;descrLabel3.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="descrLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="captionLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="captionLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 18pt</value>
+  </data>
+  <data name="&gt;&gt;captionLabel1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;captionLabel1.Name" xml:space="preserve">
+    <value>captionLabel1</value>
+  </data>
+  <data name="nextButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 322</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;nextButton.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;captionLabel6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="captionLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;nextButton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 300</value>
+  </data>
+  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 300</value>
+  </data>
+  <data name="&gt;&gt;descrLabel1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="nextButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAABgmlDQ1BJQ0MgcHJvZmlsZQAAKM+VkTlI
+        A0EYhb+siiKKgilELLZQKwNeiKVEUQQFiRHiUbi7MVHIbsJuxMZSsBUsPBqvwsZaWwtbQRA8QCytrBRt
+        RNZ/NkKCEMGBYT7ezHvMvAHtIGPZXmUX2E7ejY1G9cTMrF79jEYTjXQTMSwvNzE1Eqfs+LglpNabiMri
+        f6M+uehZENKFB62cmxdeEO5fzecU7wiHrSUjKXwq3OnKBYXvlW4W+EVxOmBNZYbdeGxIOCysp0vYLGFr
+        ybWF+4TbkrYj+VqiwEnFa4rtzIr1c0/1wrpFZ3pK6TJbGWWMCSbRMVlhmQx5IrI6onjEZD9axt8S+CfF
+        ZYprGUscw2SxMQI/6g9+d+ulensKSXVRqHry/bd2qN6Cr03f/zz0/a8jqHiEC6fozx7AwLvom0WtbR8a
+        1uHssqiZ23C+Ac0POcM1AqlCppZKweuJfNMMNF1D7Vyht599ju8gLl2NX8HuHnSkJXu+zLtrSnv780zQ
+        H9Fv1llyz2GKicAAAAAJcEhZcwAAXEQAAFxEAWtqgMgAAAAHdElNRQfmAhMQNTXcAVzLAAAAbklEQVQ4
+        T2PAB7Qr760H4vdAnAAVIg1ANf+HYtINAWlCMoBsQ5yAmGKXGFDDkAAkAxCGABkFQLyfCHweiJENAOEK
+        kAHogiRhyl1ALAAqxh4GxACgYvJjAaiY/HQAUoykkTTNIADUQHHiIZAbGRgArLXqE8nZz8gAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="captionLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 18pt</value>
+  </data>
+  <data name="&gt;&gt;captionLabel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="mainPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 300</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;captionLabel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="captionLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="captionLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;captionLabel2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;captionLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Welcome to 'Grayemo!'</value>
+  </data>
+  <data name="captionLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;captionLabel4.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="backButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;nextButton.Name" xml:space="preserve">
+    <value>nextButton</value>
+  </data>
+  <data name="captionLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="backButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="panel7.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;panel7.Name" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;captionLabel8.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="descrLabel4.Text" xml:space="preserve">
+    <value>You can manage four categories of processes for each game: 'Processes to kill', 'Processes to run', 'Run on start' and 'Run on exit'.
+</value>
+  </data>
+  <data name="captionLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="captionLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 18pt</value>
+  </data>
+  <data name="captionLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 46</value>
+  </data>
+  <data name="captionLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 18pt</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>284, 361</value>
+  </data>
+  <data name="&gt;&gt;captionLabel5.Name" xml:space="preserve">
+    <value>captionLabel5</value>
+  </data>
+  <data name="descrLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="descrLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="panel9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;captionLabel4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="captionLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;descrLabel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="captionLabel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 18pt</value>
+  </data>
+  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="descrLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;captionLabel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;captionLabel7.Name" xml:space="preserve">
+    <value>captionLabel7</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;captionLabel7.Parent" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="captionLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;descrLabel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="captionLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 46</value>
+  </data>
+  <data name="descrLabel3.Text" xml:space="preserve">
+    <value>In order to add a game, click on 'List of games' caption or list under it. Then enter the name of the game executable (you can right-click on game and select 'Open file location' in context menu). Finally, you can add the game by clicking the tick button.</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="captionLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;descrLabel4.Name" xml:space="preserve">
+    <value>descrLabel4</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Name" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;panel7.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="captionLabel1.Text" xml:space="preserve">
+    <value>Welcome!</value>
+  </data>
+  <data name="captionLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="captionLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;descrLabel3.Name" xml:space="preserve">
+    <value>descrLabel3</value>
+  </data>
+  <data name="&gt;&gt;backButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>WelcomeForm</value>
+  </data>
+  <data name="captionLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 46</value>
+  </data>
+  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="panel5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="panel2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;captionLabel8.Name" xml:space="preserve">
+    <value>captionLabel8</value>
+  </data>
+  <data name="captionLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 18pt</value>
+  </data>
+  <data name="&gt;&gt;captionLabel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 300</value>
+  </data>
+  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 300</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>uk</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

@@ -37,9 +37,13 @@ namespace grayemo
 
         string listNameSelected = "";
 
+        public static bool darkTheme;
+
+        public static bool showWelcomeForm = false;
+
         Color colorAccent = Color.FromArgb(255, 112, 147, 106);
-        Color bkgColor;
-        Color frgColor;
+        public static Color bkgColor;
+        public static Color frgColor;
 
         [DllImport("dwmapi.dll")]
         private static extern int DwmSetWindowAttribute(IntPtr hwnd, int attr, int[] attrValue, int attrSize);
@@ -55,14 +59,21 @@ namespace grayemo
                 jsonString = File.ReadAllText("data.json");
 
             if (jsonString.Length != 0)
+            {
+
                 data = JsonSerializer.Deserialize<DataSet>(jsonString);
+
+                darkTheme = data.settings["dark_thm"] == "true" ? true : false;
+
+            }
             else
             {
 
-                data.settings["autoclean"] = "false";
-                data.settings["lng"] = CultureInfo.CurrentUICulture.Name;
-                Int32 test = (Int32)Registry.GetValue(@"HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize", "AppsUseLightTheme", null);
-                data.settings["dark_thm"] = test == 0 ? "true" : "false";
+                Int32 check = (Int32) Registry.GetValue(@"HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize", "AppsUseLightTheme", null);
+
+                darkTheme = check == 0 ? true : false;
+
+                initializeData();
 
             }
 
@@ -70,13 +81,13 @@ namespace grayemo
 
             names = new BindingList<string>(data.games.Select(x => x.name).ToList());
 
-            if (data.settings["dark_thm"] == "true")
+            if (darkTheme)
                 setWindowTitleColor();
 
             InitializeComponent();
 
-            bkgColor = data.settings["dark_thm"] == "true" ? Color.Black : Color.White;
-            frgColor = data.settings["dark_thm"] == "true" ? Color.White : Color.Black;
+            bkgColor = darkTheme ? Color.Black : Color.White;
+            frgColor = darkTheme ? Color.White : Color.Black;
 
             setTheme(Controls);
 
@@ -95,7 +106,18 @@ namespace grayemo
             lngComboBox.SelectedIndex = lngComboBox.Items.IndexOf(CultureInfo.CurrentUICulture.NativeName);
 
             autoclnCheckBox.Checked = data.settings["autoclean"] == "true" ? true : false;
-            darkThmCheckBox.Checked = data.settings["dark_thm"] == "true" ? true : false;
+            darkThmCheckBox.Checked = darkTheme;
+
+            if (data.settings["welcome"] == "true") showWelcomeForm = true;
+
+            if (showWelcomeForm)
+            {
+
+                Form welcomeForm = new WelcomeForm();
+
+                welcomeForm.Show();
+
+            }
 
         }
 
@@ -448,6 +470,8 @@ namespace grayemo
 
             string jsonSerialize = JsonSerializer.Serialize(data);
 
+            if (!File.Exists("data.json") || File.ReadAllText("data.json").Length == 0) initializeData();
+
             File.WriteAllText("data.json", jsonSerialize);
 
         }
@@ -456,12 +480,12 @@ namespace grayemo
         private void onLngChanged(object sender, EventArgs e)
         {
 
-            data.settings["lng"] = lng[lngComboBox.SelectedItem.ToString()];
-
-            serialize();
+            data.settings["lng"] = lng[(sender as ComboBox).SelectedItem.ToString()];
 
             if (lngComboBox.Focused)
             {
+
+                serialize();
 
                 Application.Restart();
                 Environment.Exit(0);
@@ -625,11 +649,28 @@ namespace grayemo
 
         }
 
-        //-- RESTART 'GRAYEMOSERVICE' AFTER FORM CLOSE --
+        //-- INITIALIZE DATA --
+
+        private void initializeData()
+        {
+
+            data.settings["autoclean"] = "false";
+            data.settings["lng"] = CultureInfo.CurrentUICulture.Name;
+
+            Int32 check = (Int32)Registry.GetValue(@"HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize", "AppsUseLightTheme", null);
+
+            data.settings["dark_thm"] = check == 0 ? "true" : "false";
+            data.settings["welcome"] = "true";
+
+            showWelcomeForm = true;
+
+        }
+
+        //-- ACTIONS ON FORM CLOSE --
 
         private void onFormClose(object sender, FormClosedEventArgs e)
         {
-
+            
             if (Process.GetProcessesByName("grayemoProcess").Length != 0)
             {
 
@@ -637,6 +678,15 @@ namespace grayemo
                     process.Kill();
 
                 Process.Start("grayemoProcess");
+
+            }
+
+            if (!showWelcomeForm && data.settings["welcome"] == "true")
+            {
+
+                data.settings["welcome"] = "false";
+
+                serialize();
 
             }
         }

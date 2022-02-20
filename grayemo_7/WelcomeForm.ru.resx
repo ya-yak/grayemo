@@ -1,0 +1,182 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="descrLabel9.Text" xml:space="preserve">
+    <value>- с помощью создания ярлыка в папке "Autostart" в меню "Пуск"
+- с помощью добавления в список "Автозагрузка" в Диспетчере задач
+- с помощью добавления в "Task Scheduler".</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="captionLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 46</value>
+  </data>
+  <data name="captionLabel9.Text" xml:space="preserve">
+    <value>Запустите</value>
+  </data>
+  <data name="descrLabel1.Text" xml:space="preserve">
+    <value>У нас есть несколько советов для Вас.
+Нажмите стрелку вправо, чтобы продолжить.</value>
+  </data>
+  <data name="captionLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 46</value>
+  </data>
+  <data name="captionLabel1.Text" xml:space="preserve">
+    <value>Приветствуем!</value>
+  </data>
+  <data name="backButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAABgmlDQ1BJQ0MgcHJvZmlsZQAAKM+VkTlI
+        A0EYhb+siiKKgilELLZQKwNeiKVEUQQFiRHiUbi7MVHIbsJuxMZSsBUsPBqvwsZaWwtbQRA8QCytrBRt
+        RNZ/NkKCEMGBYT7ezHvMvAHtIGPZXmUX2E7ejY1G9cTMrF79jEYTjXQTMSwvNzE1Eqfs+LglpNabiMri
+        f6M+uehZENKFB62cmxdeEO5fzecU7wiHrSUjKXwq3OnKBYXvlW4W+EVxOmBNZYbdeGxIOCysp0vYLGFr
+        ybWF+4TbkrYj+VqiwEnFa4rtzIr1c0/1wrpFZ3pK6TJbGWWMCSbRMVlhmQx5IrI6onjEZD9axt8S+CfF
+        ZYprGUscw2SxMQI/6g9+d+ulensKSXVRqHry/bd2qN6Cr03f/zz0/a8jqHiEC6fozx7AwLvom0WtbR8a
+        1uHssqiZ23C+Ac0POcM1AqlCppZKweuJfNMMNF1D7Vyht599ju8gLl2NX8HuHnSkJXu+zLtrSnv780zQ
+        H9Fv1llyz2GKicAAAAAJcEhZcwAAXEQAAFxEAWtqgMgAAAAHdElNRQfmAhMQNDi7qxE3AAAAgUlEQVQ4
+        T2PABbQr7yUA8XsgXg8VIh5ANf+H4vdQYeIAmmYQToBKEQZomkHOd4JKEQZYNBtApQgDNM0gHACVIgyA
+        iivQNIPweSDeTwQuABmArpkkTLkLoN4gPwxgAM0Q0mIBBrAYQnw6gAE0Q0CY+JQIA2iGkJYXYABqCIHc
+        yMAAACPz6hN7vcPaAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="descrLabel7.Text" xml:space="preserve">
+    <value>Чтобы редактировать эти списки, необходимо выбрать желаемую игру.
+Чтобы отменить выбор элемента, выполните двойной клик в списке.
+Вы можете удалить элемент из списка, выбрав его и нажав кнопку с крестиком.</value>
+  </data>
+  <data name="captionLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 46</value>
+  </data>
+  <data name="captionLabel7.Text" xml:space="preserve">
+    <value>Управляйте</value>
+  </data>
+  <data name="descrLabel6.Text" xml:space="preserve">
+    <value>Список "Запустить в начале" определяет процессы, которые должны быть запущены в момент открытия игры.
+Список "Запустить в конце" определяет процессы, которые должны быть запущены в момент закрытия игры.</value>
+  </data>
+  <data name="captionLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 46</value>
+  </data>
+  <data name="captionLabel6.Text" xml:space="preserve">
+    <value>Управляйте</value>
+  </data>
+  <data name="descrLabel5.Text" xml:space="preserve">
+    <value>Список "Остановить процессы" определяет процессы, которые должны быть остановлены, если игра открыта, и запущена - если закрыта.
+Список "Запустить процессы" является противоположностью списка "Остановить процессы".</value>
+  </data>
+  <data name="captionLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 46</value>
+  </data>
+  <data name="captionLabel5.Text" xml:space="preserve">
+    <value>Управляйте</value>
+  </data>
+  <data name="descrLabel4.Text" xml:space="preserve">
+    <value>Для каждой игры можно управлять четырьмя категориями процессов: "Остановить процессы", "Запустить процессы", "Запустить в начале" и "Запустить в конце".</value>
+  </data>
+  <data name="captionLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 46</value>
+  </data>
+  <data name="captionLabel4.Text" xml:space="preserve">
+    <value>Управляйте</value>
+  </data>
+  <data name="descrLabel3.Text" xml:space="preserve">
+    <value>Чтобы добавить игру, щелкните заголовок "Список игр" или список под ним. Введите имя исполняемого файла игры (Вы можете нажать ПКМ на игру и выбрать опцию "Открыть местоположение файла" в контекстном меню). Наконец, можно добавить игру, нажав кнопку с галочкой.</value>
+  </data>
+  <data name="captionLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 46</value>
+  </data>
+  <data name="captionLabel3.Text" xml:space="preserve">
+    <value>Добавьте игру</value>
+  </data>
+  <data name="descrLabel2.Text" xml:space="preserve">
+    <value>Это приложение для управления процессами во время игры. С помощью нее Вы можете определить, какие приложения должны быть запущены или остановлены, если определенная игра открыта.</value>
+  </data>
+  <data name="captionLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 46</value>
+  </data>
+  <data name="captionLabel2.Text" xml:space="preserve">
+    <value>Как использовать</value>
+  </data>
+  <data name="descrLabel8.Text" xml:space="preserve">
+    <value>Функцию управления процессами выполняет программа "grayemoProcess". Она может запускаться автоматически несколькими способами:</value>
+  </data>
+  <data name="captionLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 46</value>
+  </data>
+  <data name="captionLabel8.Text" xml:space="preserve">
+    <value>Запустите</value>
+  </data>
+  <data name="nextButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAABgmlDQ1BJQ0MgcHJvZmlsZQAAKM+VkTlI
+        A0EYhb+siiKKgilELLZQKwNeiKVEUQQFiRHiUbi7MVHIbsJuxMZSsBUsPBqvwsZaWwtbQRA8QCytrBRt
+        RNZ/NkKCEMGBYT7ezHvMvAHtIGPZXmUX2E7ejY1G9cTMrF79jEYTjXQTMSwvNzE1Eqfs+LglpNabiMri
+        f6M+uehZENKFB62cmxdeEO5fzecU7wiHrSUjKXwq3OnKBYXvlW4W+EVxOmBNZYbdeGxIOCysp0vYLGFr
+        ybWF+4TbkrYj+VqiwEnFa4rtzIr1c0/1wrpFZ3pK6TJbGWWMCSbRMVlhmQx5IrI6onjEZD9axt8S+CfF
+        ZYprGUscw2SxMQI/6g9+d+ulensKSXVRqHry/bd2qN6Cr03f/zz0/a8jqHiEC6fozx7AwLvom0WtbR8a
+        1uHssqiZ23C+Ac0POcM1AqlCppZKweuJfNMMNF1D7Vyht599ju8gLl2NX8HuHnSkJXu+zLtrSnv780zQ
+        H9Fv1llyz2GKicAAAAAJcEhZcwAAXEQAAFxEAWtqgMgAAAAHdElNRQfmAhMQNTXcAVzLAAAAbklEQVQ4
+        T2PAB7Qr760H4vdAnAAVIg1ANf+HYtINAWlCMoBsQ5yAmGKXGFDDkAAkAxCGABkFQLyfCHweiJENAOEK
+        kAHogiRhyl1ALAAqxh4GxACgYvJjAaiY/HQAUoykkTTNIADUQHHiIZAbGRgArLXqE8nZz8gAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Приветствуем в "Граемо"!</value>
+  </data>
+</root>
