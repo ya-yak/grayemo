@@ -16,14 +16,17 @@ using Microsoft.Win32;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
+using System.Drawing.Text;
 
 namespace grayemo
 {
-
+    
     public partial class Form1 : Form
     {
 
         DataSet data = new DataSet();
+
+        Dictionary<string, object> dataSettings = new Dictionary<string, object>();
 
         BindingList<string> names;
         BindingList<string> prcToKill;
@@ -48,34 +51,37 @@ namespace grayemo
         [DllImport("dwmapi.dll")]
         private static extern int DwmSetWindowAttribute(IntPtr hwnd, int attr, int[] attrValue, int attrSize);
 
+        [System.Runtime.InteropServices.DllImport("gdi32.dll")]
+        private static extern IntPtr AddFontMemResourceEx(IntPtr pbFont, uint cbFont,
+            IntPtr pdv, [System.Runtime.InteropServices.In] ref uint pcFonts);
+
+        private PrivateFontCollection fonts = new PrivateFontCollection();
+
+        Font myFont;
+
         //-- FORM INITIALIZATION --
 
         public Form1()
         {
+
+            Int32 check = (Int32) Registry.GetValue(@"HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize", "AppsUseLightTheme", null);
 
             string jsonString = "";
 
             if (File.Exists("data.json"))
                 jsonString = File.ReadAllText("data.json");
 
-            if (jsonString.Length != 0)
-            {
+            if (jsonString.Length != 0) data = JsonSerializer.Deserialize<DataSet>(jsonString);
 
-                data = JsonSerializer.Deserialize<DataSet>(jsonString);
+            dataSettings["autoclean"] = "false";
+            dataSettings["lng"] = CultureInfo.CurrentUICulture.Name;
+            dataSettings["dark_thm"] = check == 0 ? "true" : "false";
+            dataSettings["welcome"] = "true";
+            dataSettings["autoload"] = "false";
 
-                darkTheme = data.settings["dark_thm"] == "true" ? true : false;
+            initializeData();
 
-            }
-            else
-            {
-
-                Int32 check = (Int32) Registry.GetValue(@"HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize", "AppsUseLightTheme", null);
-
-                darkTheme = check == 0 ? true : false;
-
-                initializeData();
-
-            }
+            darkTheme = data.settings["dark_thm"] == "true" ? true : false;
 
             Thread.CurrentThread.CurrentUICulture = new CultureInfo(Convert.ToString(data.settings["lng"]));
 
@@ -85,6 +91,24 @@ namespace grayemo
                 setWindowTitleColor();
 
             InitializeComponent();
+
+            byte[] fontData = Properties.Resources.Andika_Regular;
+
+            IntPtr fontPtr = System.Runtime.InteropServices.Marshal.AllocCoTaskMem(fontData.Length);
+
+            System.Runtime.InteropServices.Marshal.Copy(fontData, 0, fontPtr, fontData.Length);
+
+            uint dummy = 0;
+
+            fonts.AddMemoryFont(fontPtr, Properties.Resources.Andika_Regular.Length);
+
+            AddFontMemResourceEx(fontPtr, (uint) Properties.Resources.Andika_Regular.Length, IntPtr.Zero, ref dummy);
+
+            System.Runtime.InteropServices.Marshal.FreeCoTaskMem(fontPtr);
+
+            myFont = new Font(fonts.Families[0], 8.25F);
+
+            this.Font = myFont;
 
             bkgColor = darkTheme ? Color.Black : Color.White;
             frgColor = darkTheme ? Color.White : Color.Black;
@@ -106,6 +130,8 @@ namespace grayemo
             lngComboBox.SelectedIndex = lngComboBox.Items.IndexOf(CultureInfo.CurrentUICulture.NativeName);
 
             autoclnCheckBox.Checked = data.settings["autoclean"] == "true" ? true : false;
+            autoloadCheckBox.Checked = data.settings["autoload"] == "true" ? true : false;
+
             darkThmCheckBox.Checked = darkTheme;
 
             if (data.settings["welcome"] == "true") showWelcomeForm = true;
@@ -122,6 +148,7 @@ namespace grayemo
         }
 
         //-- ADD ITEM --
+
         private void onItemAdded(object sender, EventArgs e)
         {
 
@@ -215,6 +242,7 @@ namespace grayemo
         }
 
         //-- DELETE ITEM --
+
         private void onItemDeleted(object sender, EventArgs e)
         {
 
@@ -311,6 +339,7 @@ namespace grayemo
 
             if (sender is ListBox)
                 (sender as ListBox).SelectedItems.Clear();
+
             else
             {
 
@@ -464,7 +493,17 @@ namespace grayemo
 
         }
 
+        private void onAutoloadChanged(object sender, EventArgs e)
+        {
+
+            data.settings["autoload"] = autoloadCheckBox.Checked ? "true" : "false";
+
+            serialize();
+
+        }
+
         //-- SERIALIZE (SAVE) DATA --
+
         private void serialize()
         {
 
@@ -477,6 +516,7 @@ namespace grayemo
         }
 
         //-- SWITCH LANGUAGE PREFERENCE --
+
         private void onLngChanged(object sender, EventArgs e)
         {
 
@@ -494,6 +534,7 @@ namespace grayemo
         }
 
         //-- USE EXPLORER BROWSE WINDOW --
+
         private void onGamesBrowse(object sender, EventArgs e)
         {
 
@@ -522,6 +563,7 @@ namespace grayemo
         }
 
         //-- HANDLE KEYBOARD KEYS PRESSING --
+
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
 
@@ -654,16 +696,12 @@ namespace grayemo
         private void initializeData()
         {
 
-            data.settings["autoclean"] = "false";
-            data.settings["lng"] = CultureInfo.CurrentUICulture.Name;
+            foreach (KeyValuePair<string, object> setting in dataSettings)
+            {
 
-            Int32 check = (Int32)Registry.GetValue(@"HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize", "AppsUseLightTheme", null);
+                if (!data.settings.ContainsKey(setting.Key)) data.settings[setting.Key] = (string) setting.Value;
 
-            data.settings["dark_thm"] = check == 0 ? "true" : "false";
-            data.settings["welcome"] = "true";
-
-            showWelcomeForm = true;
-
+            }
         }
 
         //-- ACTIONS ON FORM CLOSE --

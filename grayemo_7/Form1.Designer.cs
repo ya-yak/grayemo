@@ -37,13 +37,14 @@
             this.lngComboBox = new System.Windows.Forms.ComboBox();
             this.darkThmCheckBox = new System.Windows.Forms.CheckBox();
             this.panel = new System.Windows.Forms.Panel();
-            this.runOnExitListBox = new System.Windows.Forms.ListBox();
-            this.runOnExitButton = new System.Windows.Forms.Button();
             this.runOnStartListBox = new System.Windows.Forms.ListBox();
+            this.runOnExitListBox = new System.Windows.Forms.ListBox();
             this.runOnStartButton = new System.Windows.Forms.Button();
+            this.runOnExitButton = new System.Windows.Forms.Button();
             this.prcToRunListBox = new System.Windows.Forms.ListBox();
             this.prcToRunButton = new System.Windows.Forms.Button();
             this.prcToKillButton = new System.Windows.Forms.Button();
+            this.autoloadCheckBox = new System.Windows.Forms.CheckBox();
             this.gamesListBox = new System.Windows.Forms.ListBox();
             this.gamesButton = new System.Windows.Forms.Button();
             this.browseButton = new System.Windows.Forms.Button();
@@ -112,16 +113,17 @@
             // 
             resources.ApplyResources(this.panel, "panel");
             this.panel.BackColor = System.Drawing.Color.White;
-            this.panel.Controls.Add(this.runOnExitListBox);
-            this.panel.Controls.Add(this.autoclnCheckBox);
-            this.panel.Controls.Add(this.lngComboBox);
-            this.panel.Controls.Add(this.runOnExitButton);
             this.panel.Controls.Add(this.runOnStartListBox);
+            this.panel.Controls.Add(this.runOnExitListBox);
+            this.panel.Controls.Add(this.prcToKillListBox);
             this.panel.Controls.Add(this.runOnStartButton);
+            this.panel.Controls.Add(this.runOnExitButton);
             this.panel.Controls.Add(this.prcToRunListBox);
             this.panel.Controls.Add(this.prcToRunButton);
             this.panel.Controls.Add(this.prcToKillButton);
-            this.panel.Controls.Add(this.prcToKillListBox);
+            this.panel.Controls.Add(this.autoloadCheckBox);
+            this.panel.Controls.Add(this.autoclnCheckBox);
+            this.panel.Controls.Add(this.lngComboBox);
             this.panel.Controls.Add(this.gamesListBox);
             this.panel.Controls.Add(this.gamesButton);
             this.panel.Controls.Add(this.browseButton);
@@ -131,27 +133,6 @@
             this.panel.Controls.Add(this.textBox);
             this.panel.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panel.Name = "panel";
-            // 
-            // runOnExitListBox
-            // 
-            resources.ApplyResources(this.runOnExitListBox, "runOnExitListBox");
-            this.runOnExitListBox.BackColor = System.Drawing.Color.White;
-            this.runOnExitListBox.ForeColor = System.Drawing.Color.Black;
-            this.runOnExitListBox.FormattingEnabled = true;
-            this.runOnExitListBox.Name = "runOnExitListBox";
-            this.runOnExitListBox.Click += new System.EventHandler(this.onItemChanged);
-            this.runOnExitListBox.DoubleClick += new System.EventHandler(this.onItemDesselected);
-            // 
-            // runOnExitButton
-            // 
-            resources.ApplyResources(this.runOnExitButton, "runOnExitButton");
-            this.runOnExitButton.BackColor = System.Drawing.Color.Transparent;
-            this.runOnExitButton.FlatAppearance.BorderSize = 0;
-            this.runOnExitButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.runOnExitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.runOnExitButton.Name = "runOnExitButton";
-            this.runOnExitButton.UseVisualStyleBackColor = false;
-            this.runOnExitButton.Click += new System.EventHandler(this.onItemChanged);
             // 
             // runOnStartListBox
             // 
@@ -163,6 +144,16 @@
             this.runOnStartListBox.Click += new System.EventHandler(this.onItemChanged);
             this.runOnStartListBox.DoubleClick += new System.EventHandler(this.onItemDesselected);
             // 
+            // runOnExitListBox
+            // 
+            resources.ApplyResources(this.runOnExitListBox, "runOnExitListBox");
+            this.runOnExitListBox.BackColor = System.Drawing.Color.White;
+            this.runOnExitListBox.ForeColor = System.Drawing.Color.Black;
+            this.runOnExitListBox.FormattingEnabled = true;
+            this.runOnExitListBox.Name = "runOnExitListBox";
+            this.runOnExitListBox.Click += new System.EventHandler(this.onItemChanged);
+            this.runOnExitListBox.DoubleClick += new System.EventHandler(this.onItemDesselected);
+            // 
             // runOnStartButton
             // 
             resources.ApplyResources(this.runOnStartButton, "runOnStartButton");
@@ -173,6 +164,17 @@
             this.runOnStartButton.Name = "runOnStartButton";
             this.runOnStartButton.UseVisualStyleBackColor = false;
             this.runOnStartButton.Click += new System.EventHandler(this.onItemChanged);
+            // 
+            // runOnExitButton
+            // 
+            resources.ApplyResources(this.runOnExitButton, "runOnExitButton");
+            this.runOnExitButton.BackColor = System.Drawing.Color.Transparent;
+            this.runOnExitButton.FlatAppearance.BorderSize = 0;
+            this.runOnExitButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.runOnExitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.runOnExitButton.Name = "runOnExitButton";
+            this.runOnExitButton.UseVisualStyleBackColor = false;
+            this.runOnExitButton.Click += new System.EventHandler(this.onItemChanged);
             // 
             // prcToRunListBox
             // 
@@ -206,6 +208,14 @@
             this.prcToKillButton.UseVisualStyleBackColor = false;
             this.prcToKillButton.Click += new System.EventHandler(this.onItemChanged);
             // 
+            // autoloadCheckBox
+            // 
+            resources.ApplyResources(this.autoloadCheckBox, "autoloadCheckBox");
+            this.autoloadCheckBox.ForeColor = System.Drawing.Color.Black;
+            this.autoloadCheckBox.Name = "autoloadCheckBox";
+            this.autoloadCheckBox.UseVisualStyleBackColor = true;
+            this.autoloadCheckBox.Click += new System.EventHandler(this.onAutoloadChanged);
+            // 
             // gamesListBox
             // 
             resources.ApplyResources(this.gamesListBox, "gamesListBox");
@@ -218,11 +228,11 @@
             // 
             // gamesButton
             // 
-            resources.ApplyResources(this.gamesButton, "gamesButton");
             this.gamesButton.BackColor = System.Drawing.Color.Transparent;
             this.gamesButton.FlatAppearance.BorderSize = 0;
             this.gamesButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.gamesButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.gamesButton, "gamesButton");
             this.gamesButton.Name = "gamesButton";
             this.gamesButton.UseVisualStyleBackColor = false;
             this.gamesButton.Click += new System.EventHandler(this.onItemChanged);
@@ -242,9 +252,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.Controls.Add(this.panel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "Form1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.onFormClose);
             this.panel.ResumeLayout(false);
@@ -271,8 +278,9 @@
         private System.Windows.Forms.Button prcToKillButton;
         private System.Windows.Forms.ListBox runOnExitListBox;
         private System.Windows.Forms.Button runOnExitButton;
-        private System.Windows.Forms.ListBox runOnStartListBox;
         private System.Windows.Forms.Button runOnStartButton;
+        private CheckBox autoloadCheckBox;
+        private ListBox runOnStartListBox;
     }
 }
 

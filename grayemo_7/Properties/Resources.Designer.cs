@@ -59,5 +59,15 @@ namespace grayemo.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Andika_Regular {
+            get {
+                object obj = ResourceManager.GetObject("Andika_Regular", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }
