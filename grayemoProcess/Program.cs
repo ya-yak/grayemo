@@ -6,12 +6,14 @@ string pattern = @"(?<=\\)[^\\/:*?<>|]+(?=.exe)|(?<=\\)[^\\/:*?<>|]+$";
 Regex regex = new Regex(pattern);
 MatchCollection matchCollection;
 
+string jsonString = File.ReadAllText("data.json");
+
+DataSet data = JsonSerializer.Deserialize<DataSet>(jsonString);
+
 //-- IF NO ANOTHER 'GRAYEMOPROCESS' IS OPEN --
 
-if (Process.GetProcessesByName("grayemoProcess").Length < 2)
+if (Process.GetProcessesByName("grayemoProcess").Length < 2 && data.settings["autoload"] == "true")
 {
-
-    string jsonString = File.ReadAllText("data.json");
 
     Dictionary<string, bool> queue;
 
@@ -21,8 +23,6 @@ if (Process.GetProcessesByName("grayemoProcess").Length < 2)
 
     if (jsonString != null)
     {
-
-        DataSet data = JsonSerializer.Deserialize<DataSet>(jsonString);
 
         while (true)
         {
