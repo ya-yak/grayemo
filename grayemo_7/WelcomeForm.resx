@@ -70,8 +70,8 @@
   </data>
   <data name="descrLabel9.Text" xml:space="preserve">
     <value>- by creating shortcut in 'Autostart' folder in 'Start' menu
-- by adding in 'Autostart' list in Task Manager
-- by adding in Task Scheduler.</value>
+- by adding in Task Scheduler
+- by adding in other developers' schedulers (e. g. 'Z-Cron').</value>
   </data>
   <data name="&gt;&gt;descrLabel9.Name" xml:space="preserve">
     <value>descrLabel9</value>
@@ -3230,7 +3230,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>3, 5, 3, 5</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Welcome to 'Grayemo!'</value>
+    <value>Welcome to 'Grayemo'!</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>WelcomeForm</value>

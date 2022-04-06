@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Globalization;
 using System.Runtime.InteropServices;
+using System.Drawing.Text;
+using System.Text.RegularExpressions;
 
 namespace grayemo
 {
@@ -22,7 +24,17 @@ namespace grayemo
         Dictionary<int, Panel> panels = new Dictionary<int, Panel>();
 
         [DllImport("dwmapi.dll")]
+
         private static extern int DwmSetWindowAttribute(IntPtr hwnd, int attr, int[] attrValue, int attrSize);
+
+        [System.Runtime.InteropServices.DllImport("gdi32.dll")]
+
+        private static extern IntPtr AddFontMemResourceEx(IntPtr pbFont, uint cbFont,
+            IntPtr pdv, [System.Runtime.InteropServices.In] ref uint pcFonts);
+
+        private PrivateFontCollection fonts = new PrivateFontCollection();
+
+        Font captionFont, descrFont;
 
         //-- FORM INITIALIZATION --
 
@@ -30,6 +42,23 @@ namespace grayemo
         {
 
             InitializeComponent();
+
+            byte[] fontData = Properties.Resources.Andika_Regular;
+
+            IntPtr fontPtr = System.Runtime.InteropServices.Marshal.AllocCoTaskMem(fontData.Length);
+
+            System.Runtime.InteropServices.Marshal.Copy(fontData, 0, fontPtr, fontData.Length);
+
+            uint dummy = 0;
+
+            fonts.AddMemoryFont(fontPtr, Properties.Resources.Andika_Regular.Length);
+
+            AddFontMemResourceEx(fontPtr, (uint)Properties.Resources.Andika_Regular.Length, IntPtr.Zero, ref dummy);
+
+            System.Runtime.InteropServices.Marshal.FreeCoTaskMem(fontPtr);
+
+            captionFont = new Font(fonts.Families[0], 16.5F);
+            descrFont = new Font(fonts.Families[0], 8.25F);
 
             panels.Add(1, panel1);
             panels.Add(2, panel2);
@@ -41,7 +70,25 @@ namespace grayemo
             panels.Add(8, panel8);
             panels.Add(9, panel9);
 
-            setTheme(Controls);
+            string pattern = @"^\D+";
+            Regex regex = new Regex(pattern);
+            MatchCollection matchCollection;
+
+            foreach (KeyValuePair<int, Panel> p in panels)
+            {
+
+                foreach (Control c in p.Value.Controls)
+                {
+
+                    matchCollection = regex.Matches(c.Name);
+
+                    if (matchCollection[0].Value == "captionLabel") c.Font = captionFont;
+                    if (matchCollection[0].Value == "descrLabel") c.Font = descrFont;
+
+                }    
+            }
+
+                setTheme(Controls);
 
             if (Form1.darkTheme) setWindowTitleColor();
 

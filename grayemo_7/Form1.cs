@@ -49,9 +49,11 @@ namespace grayemo
         public static Color frgColor;
 
         [DllImport("dwmapi.dll")]
+
         private static extern int DwmSetWindowAttribute(IntPtr hwnd, int attr, int[] attrValue, int attrSize);
 
         [System.Runtime.InteropServices.DllImport("gdi32.dll")]
+
         private static extern IntPtr AddFontMemResourceEx(IntPtr pbFont, uint cbFont,
             IntPtr pdv, [System.Runtime.InteropServices.In] ref uint pcFonts);
 

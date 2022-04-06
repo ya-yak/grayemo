@@ -59,8 +59,8 @@
   </resheader>
   <data name="descrLabel9.Text" xml:space="preserve">
     <value>- с помощью создания ярлыка в папке "Autostart" в меню "Пуск"
-- с помощью добавления в список "Автозагрузка" в Диспетчере задач
-- с помощью добавления в "Task Scheduler".</value>
+- с помощью добавления в "Task Scheduler".
+- с помощью добавления в планировщики других разработчиков (напр. "Z-Cron").</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="captionLabel9.Size" type="System.Drawing.Size, System.Drawing">
