@@ -228,11 +228,11 @@
             // 
             // gamesButton
             // 
+            resources.ApplyResources(this.gamesButton, "gamesButton");
             this.gamesButton.BackColor = System.Drawing.Color.Transparent;
             this.gamesButton.FlatAppearance.BorderSize = 0;
             this.gamesButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.gamesButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.gamesButton, "gamesButton");
             this.gamesButton.Name = "gamesButton";
             this.gamesButton.UseVisualStyleBackColor = false;
             this.gamesButton.Click += new System.EventHandler(this.onItemChanged);

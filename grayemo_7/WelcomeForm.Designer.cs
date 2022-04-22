@@ -73,9 +73,9 @@
             // 
             // panel9
             // 
+            resources.ApplyResources(this.panel9, "panel9");
             this.panel9.Controls.Add(this.descrLabel9);
             this.panel9.Controls.Add(this.captionLabel9);
-            resources.ApplyResources(this.panel9, "panel9");
             this.panel9.Name = "panel9";
             // 
             // descrLabel9
@@ -90,6 +90,7 @@
             // 
             // mainPanel
             // 
+            resources.ApplyResources(this.mainPanel, "mainPanel");
             this.mainPanel.Controls.Add(this.panel1);
             this.mainPanel.Controls.Add(this.backButton);
             this.mainPanel.Controls.Add(this.panel9);
@@ -101,14 +102,13 @@
             this.mainPanel.Controls.Add(this.panel2);
             this.mainPanel.Controls.Add(this.panel8);
             this.mainPanel.Controls.Add(this.nextButton);
-            resources.ApplyResources(this.mainPanel, "mainPanel");
             this.mainPanel.Name = "mainPanel";
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.descrLabel1);
             this.panel1.Controls.Add(this.captionLabel1);
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // descrLabel1
@@ -130,9 +130,9 @@
             // 
             // panel7
             // 
+            resources.ApplyResources(this.panel7, "panel7");
             this.panel7.Controls.Add(this.descrLabel7);
             this.panel7.Controls.Add(this.captionLabel7);
-            resources.ApplyResources(this.panel7, "panel7");
             this.panel7.Name = "panel7";
             // 
             // descrLabel7
@@ -147,9 +147,9 @@
             // 
             // panel6
             // 
+            resources.ApplyResources(this.panel6, "panel6");
             this.panel6.Controls.Add(this.descrLabel6);
             this.panel6.Controls.Add(this.captionLabel6);
-            resources.ApplyResources(this.panel6, "panel6");
             this.panel6.Name = "panel6";
             // 
             // descrLabel6
@@ -164,9 +164,9 @@
             // 
             // panel5
             // 
+            resources.ApplyResources(this.panel5, "panel5");
             this.panel5.Controls.Add(this.descrLabel5);
             this.panel5.Controls.Add(this.captionLabel5);
-            resources.ApplyResources(this.panel5, "panel5");
             this.panel5.Name = "panel5";
             // 
             // descrLabel5
@@ -181,9 +181,9 @@
             // 
             // panel4
             // 
+            resources.ApplyResources(this.panel4, "panel4");
             this.panel4.Controls.Add(this.descrLabel4);
             this.panel4.Controls.Add(this.captionLabel4);
-            resources.ApplyResources(this.panel4, "panel4");
             this.panel4.Name = "panel4";
             // 
             // descrLabel4
@@ -198,9 +198,9 @@
             // 
             // panel3
             // 
+            resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Controls.Add(this.descrLabel3);
             this.panel3.Controls.Add(this.captionLabel3);
-            resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
             // 
             // descrLabel3
@@ -215,9 +215,9 @@
             // 
             // panel2
             // 
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Controls.Add(this.descrLabel2);
             this.panel2.Controls.Add(this.captionLabel2);
-            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
             // descrLabel2
@@ -232,9 +232,9 @@
             // 
             // panel8
             // 
+            resources.ApplyResources(this.panel8, "panel8");
             this.panel8.Controls.Add(this.descrLabel8);
             this.panel8.Controls.Add(this.captionLabel8);
-            resources.ApplyResources(this.panel8, "panel8");
             this.panel8.Name = "panel8";
             // 
             // descrLabel8
