@@ -10,7 +10,7 @@ Instructions of usage of the program are included in the welcome message.
 
 # Installation
 
-The ready-to-use version is right there. If it satisfy your OS version and PC architecture, you can just download and unpack zip.
+A compiled version is right there. If it satisfy your OS version and PC architecture, you can just download and unpack zip.
 
 **Caution**: to run the program, you may need download some of '.NET' libraries.
 
