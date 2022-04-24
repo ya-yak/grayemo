@@ -564,6 +564,23 @@ namespace grayemo
             }
         }
 
+        //-- HELP ('WELCOME' SCREEN) --
+
+        private void onHelpRequested(object sender, EventArgs e)
+        {
+
+            Form welcomeForm = new WelcomeForm();
+
+            welcomeForm.Show();
+
+            data.settings["welcome"] = "true";
+
+            showWelcomeForm = true;
+
+            serialize();
+
+        }
+
         //-- HANDLE KEYBOARD KEYS PRESSING --
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)

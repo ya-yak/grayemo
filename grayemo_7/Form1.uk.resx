@@ -67,7 +67,7 @@
         VjA14mnisKrplC+kPVY5b3HWShXW6JO/MJjVV5JcpzWMKJYQQxwiFFRQRAk2IrTrpFhI0LnUxj/k+uPk
         UshVBCPHAsrQILt+8D/4PVsrNzXpJQUloPPFcT5GgcAuUK86zvex49RPAP8zcKU3/eUaMPtJerWphY+A
         vm3g4rqpKXvA5Q4w+GTIpuxKflpCLge8n9E3ZYCBW6B7zZtb4xynD0CKZrV8AxwcAmN5yl5v8+6u1rn9
-        ecedH6QfUiRymq0ibPwAAAAJcEhZcwAADr0AAA69AUf7kK0AAAAHdElNRQfmAQ4MOydB1K+LAAABKElE
+        ecedH6QfUiRymq0ibPwAAAAJcEhZcwAADrwAAA68AZW8ckkAAAAHdElNRQfmAQ4MOydB1K+LAAABKElE
         QVQ4T5WSMUtCYRiFb9rSGLXkEEE4FDgE4T8Il+gHSEMNtdkfqIYGqbWhyQb/Qw3VFLQnRZsOStDk1NCS
         Vs/5ODcNvHY98ID3nPO++n3XaFKd3pUzsAPvULOdXgwtQxu+tcR2OjGQhZqHP+HIUToxsAs9L3iG+RCc
         3WxPhQ9jRHkRmh7+gFIc7MM9FIORIPJz6IMWVG2HQLcpswFztv8If9Md8QI5RyG8dKBLObT9K7wFeHJH
@@ -88,7 +88,7 @@
         WdHUiKeII6qmU76Q8VjlvMVZK1dZs0/+wkBOX0lxndYwYlhCHAmIUFBFCWXYiNKuk2IhSedSB/+Q60+Q
         SyFXCYwcC6hAg+z6wf/g92yt/OSElxSQgO4Xx/kYAXp2gUbNcb6PHadxAvifgSu95a/UgZlP0mstLXIE
         hLaBi+uWpuwBlzvA4JMhm7Ir+WkJ+TzwfkbflAX6b4G+NW9uzXOcPgBpmtXyDXBwCIwWKHu9w7t72+f2
-        5x13fpB+AJ0Ccrgw95fBAAAACXBIWXMAAA69AAAOvQFH+5CtAAAAB3RJTUUH5gEPDTk1OSWxEwAAAIRJ
+        5x13fpB+AJ0Ccrgw95fBAAAACXBIWXMAAA68AAAOvAGVvHJJAAAAB3RJTUUH5gEPDTk1OSWxEwAAAIRJ
         REFUOE+lk1EKwCAMQ3e8HWMeySP4uxvOny0ZCl2xrbhABpqXigO3c08FrvCxTYosfLHLBct3cziEjOCr
         3nCHmKwZCIWMB3jZRwMwN8u9cbmLgCpI++UugPpUOrc4FmFVnh8AcP0KBFRh/icysEAvexUCkMmYwUBD
         Fp/fj2n1OaOTygNB9B237oStggAAAABJRU5ErkJggg==
@@ -97,17 +97,27 @@
   <data name="darkThmCheckBox.Text" xml:space="preserve">
     <value>Темна тема</value>
   </data>
-  <data name="runOnStartButton.Text" xml:space="preserve">
-    <value>Запустити на початку</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="runOnExitButton.Text" xml:space="preserve">
     <value>Запустити в кінці</value>
   </data>
-  <data name="prcToRunButton.Text" xml:space="preserve">
-    <value>Запустити процеси</value>
+  <data name="runOnStartButton.Text" xml:space="preserve">
+    <value>Запустити на початку</value>
   </data>
   <data name="prcToKillButton.Text" xml:space="preserve">
     <value>Зупинити процеси</value>
+  </data>
+  <data name="prcToRunButton.Text" xml:space="preserve">
+    <value>Запустити процеси</value>
+  </data>
+  <data name="autoloadCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 452</value>
   </data>
   <data name="autoloadCheckBox.Text" xml:space="preserve">
     <value>Автозавантаження</value>
@@ -124,7 +134,7 @@
         ZiVTI44RR1RNp3wh67HKeYuzVqmxVp/8hcG8vpLmOq0RxLGEBJIQoaCGMiqwEaVdJ8VCis6lLv5h158k
         l0KuMhg5FlCFBtn1g//B79lahekpLykoAb0vjvMxCgR2gWbdcb6PHad5AvifgSu97a82gNlP0uttLXIE
         hLaBi+u2puwBlzvA0JMhm7Ir+WkJhQLwfkbflAMGb4H+NW9urXOcPgAZmtXyDXBwCIwVKXu9y7v7Ouf2
-        5x13fpB+AL03csVxzRKYAAAACXBIWXMAAA69AAAOvQFH+5CtAAAAB3RJTUUH5gEPDCowKWJuOQAAAEFJ
+        5x13fpB+AL03csVxzRKYAAAACXBIWXMAAA68AAAOvAGVvHJJAAAAB3RJTUUH5gEPDCowKWJuOQAAAEFJ
         REFUOE9j+HU8YjUQ/8eB1zAQAlg0oWMBqFLsAIsGdHwYiBtwYBtiDMCH31NqwP9RA0YNAOHBYQC+7EwA
         R6wGAJWu43CCM5JdAAAAAElFTkSuQmCC
 </value>

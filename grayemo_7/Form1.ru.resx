@@ -97,17 +97,17 @@
   <data name="darkThmCheckBox.Text" xml:space="preserve">
     <value>Тёмная тема</value>
   </data>
-  <data name="runOnStartButton.Text" xml:space="preserve">
-    <value>Запустить в начале</value>
-  </data>
   <data name="runOnExitButton.Text" xml:space="preserve">
     <value>Запустить в конце</value>
   </data>
-  <data name="prcToRunButton.Text" xml:space="preserve">
-    <value>Запустить процессы</value>
+  <data name="runOnStartButton.Text" xml:space="preserve">
+    <value>Запустить в начале</value>
   </data>
   <data name="prcToKillButton.Text" xml:space="preserve">
     <value>Остановить процессы</value>
+  </data>
+  <data name="prcToRunButton.Text" xml:space="preserve">
+    <value>Запустить процессы</value>
   </data>
   <data name="autoloadCheckBox.Text" xml:space="preserve">
     <value>Автозагрузка</value>

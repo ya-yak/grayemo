@@ -57,324 +57,438 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="gamesButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 8.25pt, style=Bold</value>
-  </data>
-  <data name="runOnExitButton.Text" xml:space="preserve">
-    <value>Run on exit</value>
+  <data name="&gt;&gt;removeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="runOnExitListBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <data name="removeButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
-  <data name="lngComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 452</value>
-  </data>
-  <data name="prcToRunListBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 48</value>
-  </data>
-  <data name="addItemButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 25</value>
-  </data>
-  <data name="browseButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="addItemButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="runOnStartButton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="prcToKillButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>0, 30</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="runOnStartListBox.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="prcToKillListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>22</value>
   </data>
-  <data name="runOnExitButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;runOnExitListBox.Name" xml:space="preserve">
-    <value>runOnExitListBox</value>
-  </data>
-  <data name="prcToRunButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="removeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;prcToRunListBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lngComboBox.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;runOnStartButton.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;runOnStartPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="lngComboBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="prcToRunButton.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 30</value>
-  </data>
-  <data name="darkThmCheckBox.Text" xml:space="preserve">
-    <value>Dark theme</value>
-  </data>
-  <data name="prcToKillButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 30</value>
-  </data>
-  <data name="runOnStartButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 30</value>
-  </data>
-  <data name="&gt;&gt;runOnExitListBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="autoloadCheckBox.Text" xml:space="preserve">
-    <value>Autoload</value>
-  </data>
-  <data name="panel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="textBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 417</value>
-  </data>
-  <data name="&gt;&gt;prcToRunButton.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="runOnStartListBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 48</value>
-  </data>
-  <data name="autoloadCheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="autoloadCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;runOnExitButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;addItemButton.Parent" xml:space="preserve">
     <value>panel</value>
   </data>
-  <data name="&gt;&gt;addItemButton.Name" xml:space="preserve">
-    <value>addItemButton</value>
+  <data name="&gt;&gt;removeButton.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
-  <data name="&gt;&gt;runOnExitButton.Parent" xml:space="preserve">
+  <data name="&gt;&gt;gamesButton.Parent" xml:space="preserve">
     <value>panel</value>
-  </data>
-  <data name="runOnStartListBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 239</value>
-  </data>
-  <data name="&gt;&gt;removeButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lngComboBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 30</value>
   </data>
-  <data name="&gt;&gt;prcToKillButton.Name" xml:space="preserve">
-    <value>prcToKillButton</value>
+  <data name="runOnExitPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 294</value>
   </data>
-  <data name="autoclnCheckBox.Text" xml:space="preserve">
-    <value>Autoclean</value>
-  </data>
-  <data name="prcToRunButton.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;addItemButton.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="removeButton.Enabled" type="System.Boolean, mscorlib">
+  <data name="addItemButton.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;panel.Name" xml:space="preserve">
-    <value>panel</value>
+  <data name="&gt;&gt;prcToKillListBox.Parent" xml:space="preserve">
+    <value>prcToKillPanel</value>
   </data>
-  <data name="runOnStartButton.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="darkThmCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;autoclnCheckBox.Parent" xml:space="preserve">
-    <value>panel</value>
-  </data>
-  <data name="browseButton.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="addItemButton.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="prcToKillListBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="runOnStartButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;panel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="prcToRunButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 30</value>
-  </data>
-  <data name="&gt;&gt;runOnStartListBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;darkThmCheckBox.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="runOnExitButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;removeButton.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Grayemo</value>
-  </data>
-  <data name="&gt;&gt;addItemButton.Parent" xml:space="preserve">
-    <value>panel</value>
-  </data>
-  <data name="browseButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="runOnStartButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 30</value>
-  </data>
-  <data name="autoclnCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="autoclnCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="prcToRunButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;runOnExitListBox.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="panel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;runOnExitButton.Name" xml:space="preserve">
     <value>runOnExitButton</value>
   </data>
-  <data name="gamesButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 30</value>
-  </data>
-  <data name="&gt;&gt;prcToRunButton.Name" xml:space="preserve">
-    <value>prcToRunButton</value>
-  </data>
-  <data name="runOnStartButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 201</value>
-  </data>
-  <data name="&gt;&gt;prcToKillListBox.Parent" xml:space="preserve">
-    <value>panel</value>
-  </data>
-  <data name="prcToRunListBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="runOnStartListBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;prcToRunListBox.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;runOnStartButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gamesListBox.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="prcToKillButton.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 30</value>
-  </data>
-  <data name="&gt;&gt;autoloadCheckBox.Name" xml:space="preserve">
-    <value>autoloadCheckBox</value>
-  </data>
-  <data name="&gt;&gt;autoloadCheckBox.Parent" xml:space="preserve">
-    <value>panel</value>
-  </data>
-  <data name="&gt;&gt;runOnStartButton.Parent" xml:space="preserve">
-    <value>panel</value>
-  </data>
-  <data name="prcToRunButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 30</value>
-  </data>
-  <data name="&gt;&gt;prcToRunListBox.Parent" xml:space="preserve">
-    <value>panel</value>
-  </data>
-  <data name="gamesListBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;browseButton.Name" xml:space="preserve">
-    <value>browseButton</value>
-  </data>
-  <data name="&gt;&gt;lngComboBox.Name" xml:space="preserve">
-    <value>lngComboBox</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>498, 533</value>
-  </data>
-  <data name="runOnStartButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="gamesButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="panel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="&gt;&gt;prcToRunListBox.Name" xml:space="preserve">
-    <value>prcToRunListBox</value>
-  </data>
-  <data name="gamesButton.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="addItemButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="gamesButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="autoloadCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 25</value>
+  <data name="lngComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
-  <data name="&gt;&gt;darkThmCheckBox.Parent" xml:space="preserve">
-    <value>panel</value>
+  <data name="&gt;&gt;addItemButton.Name" xml:space="preserve">
+    <value>addItemButton</value>
   </data>
-  <data name="prcToKillListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="runOnStartListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="textBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;autoclnCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="textBox.TabIndex" type="System.Int32, mscorlib">
+  <data name="removeButton.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Form1</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="gamesListBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 356</value>
+  <data name="runOnStartListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>22</value>
   </data>
-  <data name="&gt;&gt;gamesListBox.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel.Name" xml:space="preserve">
     <value>panel</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="autoclnCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;prcToKillPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="runOnExitButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="&gt;&gt;autoclnCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;addItemButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="runOnExitListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 38</value>
+  </data>
+  <data name="&gt;&gt;runOnExitButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="browseButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="darkThmCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>482, 494</value>
+  </data>
+  <data name="&gt;&gt;prcToRunButton.Name" xml:space="preserve">
+    <value>prcToRunButton</value>
+  </data>
+  <data name="removeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>498, 533</value>
+  </data>
+  <data name="prcToKillPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;prcToKillPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="autoloadCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;prcToKillListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="prcToRunPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 98</value>
+  </data>
+  <data name="helpButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="runOnStartListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 38</value>
+  </data>
+  <data name="prcToKillButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="runOnExitButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;runOnStartListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="runOnExitPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 394</value>
+  </data>
+  <data name="&gt;&gt;gamesListBox.Name" xml:space="preserve">
+    <value>gamesListBox</value>
+  </data>
+  <data name="&gt;&gt;darkThmCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="browseButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="browseButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="tableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 13</value>
+  </data>
+  <data name="addItemButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;lngComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="runOnExitButton.Text" xml:space="preserve">
+    <value>Run on exit</value>
+  </data>
+  <data name="prcToRunButton.Text" xml:space="preserve">
+    <value>Processes to run</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Grayemo</value>
+  </data>
+  <data name="&gt;&gt;prcToRunPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gamesButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="textBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 25</value>
+  </data>
+  <data name="runOnStartButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;prcToRunButton.Parent" xml:space="preserve">
+    <value>prcToRunPanel</value>
+  </data>
+  <data name="&gt;&gt;lngComboBox.Parent" xml:space="preserve">
+    <value>panel</value>
+  </data>
+  <data name="runOnExitPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="prcToRunButton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="addItemButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 417</value>
+  </data>
+  <data name="runOnStartPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 98</value>
+  </data>
+  <data name="addItemButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;prcToRunPanel.Name" xml:space="preserve">
+    <value>prcToRunPanel</value>
+  </data>
+  <data name="gamesListBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="helpButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 452</value>
+  </data>
+  <data name="&gt;&gt;addItemButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;browseButton.Parent" xml:space="preserve">
+    <value>panel</value>
+  </data>
+  <data name="&gt;&gt;prcToRunButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prcToKillButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;runOnStartListBox.Parent" xml:space="preserve">
+    <value>runOnStartPanel</value>
+  </data>
+  <data name="tableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="runOnExitPanel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="runOnStartPanel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="prcToKillPanel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="prcToRunPanel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;prcToRunPanel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="runOnExitButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="browseButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 417</value>
+  </data>
+  <data name="runOnStartPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;panel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gamesButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="darkThmCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 25</value>
+  </data>
+  <data name="&gt;&gt;autoloadCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;runOnStartListBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="autoclnCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 417</value>
+  </data>
+  <data name="prcToRunButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="prcToRunPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="prcToKillListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="prcToKillPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 98</value>
   </data>
   <data name="prcToKillButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="prcToRunButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="prcToRunListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="prcToKillPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;prcToKillPanel.Name" xml:space="preserve">
+    <value>prcToKillPanel</value>
+  </data>
+  <data name="runOnStartListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;prcToRunListBox.Parent" xml:space="preserve">
+    <value>prcToRunPanel</value>
+  </data>
+  <data name="prcToRunButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="prcToRunPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="autoclnCheckBox.Text" xml:space="preserve">
+    <value>Autoclean</value>
+  </data>
+  <data name="runOnExitButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prcToRunButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="runOnStartPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="browseButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;gamesButton.Name" xml:space="preserve">
+    <value>gamesButton</value>
+  </data>
+  <data name="prcToKillButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="prcToKillButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;prcToKillButton.Name" xml:space="preserve">
+    <value>prcToKillButton</value>
+  </data>
+  <data name="prcToRunPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 98</value>
+  </data>
+  <data name="prcToKillPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="gamesListBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;helpButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="prcToRunButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;runOnExitListBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="prcToKillButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="darkThmCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="autoloadCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="helpButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="&gt;&gt;autoloadCheckBox.Parent" xml:space="preserve">
+    <value>panel</value>
+  </data>
+  <data name="&gt;&gt;runOnStartPanel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="lngComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="autoclnCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="runOnExitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="addItemButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;browseButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;runOnStartPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="removeButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="removeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>443, 417</value>
+  </data>
+  <data name="&gt;&gt;prcToKillListBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="prcToRunButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;prcToKillPanel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;runOnStartButton.Name" xml:space="preserve">
+    <value>runOnStartButton</value>
+  </data>
+  <data name="gamesListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 356</value>
+  </data>
+  <data name="textBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 417</value>
+  </data>
+  <data name="&gt;&gt;browseButton.Name" xml:space="preserve">
+    <value>browseButton</value>
   </data>
   <data name="addItemButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -393,6 +507,245 @@
         QN/6CvE7r0PW1WRROvbAMLqfvCvjRXEGbj0YcwAZV/4X5TXoevjadnoxNA06in76iu0ERdEPAwz3iik7
         rwwAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="prcToRunButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel.Parent" xml:space="preserve">
+    <value>panel</value>
+  </data>
+  <data name="&gt;&gt;runOnStartListBox.Name" xml:space="preserve">
+    <value>runOnStartListBox</value>
+  </data>
+  <data name="&gt;&gt;prcToKillButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gamesListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="runOnStartButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gamesButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="prcToKillListBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="prcToKillButton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="runOnExitListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="browseButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;textBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;runOnExitPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="runOnStartButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 30</value>
+  </data>
+  <data name="prcToKillPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;removeButton.Name" xml:space="preserve">
+    <value>removeButton</value>
+  </data>
+  <data name="runOnStartButton.Text" xml:space="preserve">
+    <value>Run on start</value>
+  </data>
+  <data name="&gt;&gt;prcToRunButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="removeButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="runOnExitListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;runOnStartButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 22</value>
+  </data>
+  <data name="&gt;&gt;runOnExitPanel.Name" xml:space="preserve">
+    <value>runOnExitPanel</value>
+  </data>
+  <data name="prcToRunButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 30</value>
+  </data>
+  <data name="runOnExitListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 48</value>
+  </data>
+  <data name="gamesListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;helpButton.Parent" xml:space="preserve">
+    <value>panel</value>
+  </data>
+  <data name="runOnStartButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="tableLayoutPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;autoclnCheckBox.Name" xml:space="preserve">
+    <value>autoclnCheckBox</value>
+  </data>
+  <data name="&gt;&gt;lngComboBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="runOnStartListBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="browseButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhmlDQ1BJQ0MgcHJvZmlsZQAAKM+VkT1I
+        w1AUhU9TpSKVDnYQcchQBcGCaBFHiWIRLJS2QqsOJi/9gyYNSYqLo+BacPBnserg4qyrg6sgCP6AODo5
+        KbpIifclhRahghce7+O8dw733QcIjQrTrJ5JQNNtMxWXxGxuVQy8wocQghhHTGaWkUgvZtC1vu7pNtVd
+        lGfhfzWg5i0G+ETiOWaYNvEG8cymbXDeJw6zkqwSnxNPmNQg8SPXFY/fOBddFnhm2Myk5onDxGKxg5UO
+        ZiVTI44RR1RNp3wh67HKeYuzVqmxVp/8hcG8vpLmOq0RxLGEBJIQoaCGMiqwEaVdJ8VCis6lLv5h158k
+        l0KuMhg5FlCFBtn1g//B79lahekpLykoAb0vjvMxCgR2gWbdcb6PHad5AvifgSu97a82gNlP0uttLXIE
+        hLaBi+u2puwBlzvA0JMhm7Ir+WkJhQLwfkbflAMGb4H+NW9urXOcPgAZmtXyDXBwCIwVKXu9y7v7Ouf2
+        5x13fpB+AL03csVxzRKYAAAACXBIWXMAAA68AAAOvAGVvHJJAAAAB3RJTUUH5gEPDCowKWJuOQAAAEFJ
+        REFUOE9j+HU8YjUQ/8eB1zAQAlg0oWMBqFLsAIsGdHwYiBtwYBtiDMCH31NqwP9RA0YNAOHBYQC+7EwA
+        R6wGAJWu43CCM5JdAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="runOnExitButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;prcToRunListBox.Name" xml:space="preserve">
+    <value>prcToRunListBox</value>
+  </data>
+  <data name="darkThmCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;darkThmCheckBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="prcToRunListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 38</value>
+  </data>
+  <data name="runOnStartButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gamesButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="addItemButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="removeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;gamesListBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="prcToKillButton.Text" xml:space="preserve">
+    <value>Processes to kill</value>
+  </data>
+  <data name="&gt;&gt;runOnStartButton.Parent" xml:space="preserve">
+    <value>runOnStartPanel</value>
+  </data>
+  <data name="autoloadCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 452</value>
+  </data>
+  <data name="gamesButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;autoclnCheckBox.Parent" xml:space="preserve">
+    <value>panel</value>
+  </data>
+  <data name="runOnExitButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;gamesListBox.Parent" xml:space="preserve">
+    <value>panel</value>
+  </data>
+  <data name="&gt;&gt;runOnExitButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="prcToRunListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBox.Parent" xml:space="preserve">
+    <value>panel</value>
+  </data>
+  <data name="prcToRunButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="runOnStartListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="panel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="prcToKillButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="autoclnCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;autoloadCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;darkThmCheckBox.Parent" xml:space="preserve">
+    <value>panel</value>
+  </data>
+  <data name="panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>482, 494</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeButton.Parent" xml:space="preserve">
+    <value>panel</value>
+  </data>
+  <data name="&gt;&gt;runOnExitListBox.Parent" xml:space="preserve">
+    <value>runOnExitPanel</value>
+  </data>
+  <data name="prcToKillButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 30</value>
+  </data>
+  <data name="&gt;&gt;gamesListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prcToKillListBox.Name" xml:space="preserve">
+    <value>prcToKillListBox</value>
+  </data>
+  <data name="&gt;&gt;runOnStartPanel.Name" xml:space="preserve">
+    <value>runOnStartPanel</value>
+  </data>
+  <data name="runOnExitButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="prcToRunPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gamesListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 51</value>
+  </data>
+  <data name="runOnStartButton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="runOnExitButton.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="&gt;&gt;browseButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="runOnExitListBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="textBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3154,268 +3507,38 @@
         Pk4pPaRU+mZf4oKPc87Fr77nLWgV/j/nz2SE+5C3XwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="addItemButton.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="gamesListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="darkThmCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="browseButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;textBox.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="removeButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="prcToRunButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="prcToKillButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 8.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;panel.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;helpButton.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="runOnExitButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 8.25pt, style=Bold</value>
+  <data name="runOnStartPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 196</value>
   </data>
-  <data name="gamesButton.Text" xml:space="preserve">
-    <value>List of games</value>
-  </data>
-  <data name="&gt;&gt;browseButton.Parent" xml:space="preserve">
-    <value>panel</value>
-  </data>
-  <data name="prcToKillButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="gamesListBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 51</value>
-  </data>
-  <data name="&gt;&gt;runOnStartButton.Name" xml:space="preserve">
-    <value>runOnStartButton</value>
-  </data>
-  <data name="prcToKillButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="runOnExitButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 295</value>
-  </data>
-  <data name="&gt;&gt;gamesButton.Parent" xml:space="preserve">
-    <value>panel</value>
-  </data>
-  <data name="runOnExitButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="prcToRunListBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;darkThmCheckBox.Name" xml:space="preserve">
-    <value>darkThmCheckBox</value>
-  </data>
-  <data name="&gt;&gt;browseButton.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="autoloadCheckBox.Text" xml:space="preserve">
+    <value>Autoload</value>
   </data>
   <data name="runOnStartButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Andika, 8.25pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;lngComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="prcToRunListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>22</value>
   </data>
-  <data name="browseButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhmlDQ1BJQ0MgcHJvZmlsZQAAKM+VkT1I
-        w1AUhU9TpSKVDnYQcchQBcGCaBFHiWIRLJS2QqsOJi/9gyYNSYqLo+BacPBnserg4qyrg6sgCP6AODo5
-        KbpIifclhRahghce7+O8dw733QcIjQrTrJ5JQNNtMxWXxGxuVQy8wocQghhHTGaWkUgvZtC1vu7pNtVd
-        lGfhfzWg5i0G+ETiOWaYNvEG8cymbXDeJw6zkqwSnxNPmNQg8SPXFY/fOBddFnhm2Myk5onDxGKxg5UO
-        ZiVTI44RR1RNp3wh67HKeYuzVqmxVp/8hcG8vpLmOq0RxLGEBJIQoaCGMiqwEaVdJ8VCis6lLv5h158k
-        l0KuMhg5FlCFBtn1g//B79lahekpLykoAb0vjvMxCgR2gWbdcb6PHad5AvifgSu97a82gNlP0uttLXIE
-        hLaBi+u2puwBlzvA0JMhm7Ir+WkJhQLwfkbflAMGb4H+NW9urXOcPgAZmtXyDXBwCIwVKXu9y7v7Ouf2
-        5x13fpB+AL03csVxzRKYAAAACXBIWXMAAA68AAAOvAGVvHJJAAAAB3RJTUUH5gEPDCowKWJuOQAAAEFJ
-        REFUOE9j+HU8YjUQ/8eB1zAQAlg0oWMBqFLsAIsGdHwYiBtwYBtiDMCH31NqwP9RA0YNAOHBYQC+7EwA
-        R6wGAJWu43CCM5JdAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="panel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>482, 494</value>
-  </data>
-  <data name="&gt;&gt;prcToKillButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="prcToKillListBox.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="panel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="prcToKillButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;textBox.Name" xml:space="preserve">
-    <value>textBox</value>
-  </data>
-  <data name="&gt;&gt;autoloadCheckBox.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="runOnExitListBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 48</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 22</value>
-  </data>
-  <data name="browseButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 417</value>
-  </data>
-  <data name="runOnExitButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="runOnStartButton.MaximumSize" type="System.Drawing.Size, System.Drawing">
     <value>0, 30</value>
   </data>
-  <data name="darkThmCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 25</value>
+  <data name="&gt;&gt;runOnExitListBox.Name" xml:space="preserve">
+    <value>runOnExitListBox</value>
   </data>
-  <data name="prcToRunButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 8.25pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;gamesListBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;prcToRunButton.Parent" xml:space="preserve">
-    <value>panel</value>
-  </data>
-  <data name="prcToRunListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="prcToKillListBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;removeButton.Name" xml:space="preserve">
-    <value>removeButton</value>
-  </data>
-  <data name="addItemButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>104, 417</value>
-  </data>
-  <data name="prcToKillButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 30</value>
-  </data>
-  <data name="autoclnCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;prcToKillListBox.Name" xml:space="preserve">
-    <value>prcToKillListBox</value>
-  </data>
-  <data name="browseButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="gamesListBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lngComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;gamesButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lngComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="autoloadCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="runOnStartButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;panel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="removeButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;prcToKillButton.Parent" xml:space="preserve">
-    <value>panel</value>
-  </data>
-  <data name="&gt;&gt;prcToRunButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="addItemButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="runOnStartListBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="runOnExitListBox.ItemHeight" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="autoclnCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 417</value>
-  </data>
-  <data name="prcToRunListBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 145</value>
-  </data>
-  <data name="prcToKillListBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 48</value>
-  </data>
-  <data name="&gt;&gt;lngComboBox.Parent" xml:space="preserve">
-    <value>panel</value>
-  </data>
-  <data name="&gt;&gt;addItemButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;autoloadCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="browseButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 25</value>
-  </data>
-  <data name="prcToKillButton.TabIndex" type="System.Int32, mscorlib">
+  <data name="tableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;runOnStartListBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="darkThmCheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="textBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="runOnStartButton.Text" xml:space="preserve">
-    <value>Run on start</value>
-  </data>
-  <data name="addItemButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="prcToKillListBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 51</value>
-  </data>
-  <data name="&gt;&gt;runOnStartListBox.Name" xml:space="preserve">
-    <value>runOnStartListBox</value>
-  </data>
-  <data name="prcToRunListBox.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;removeButton.Parent" xml:space="preserve">
-    <value>panel</value>
-  </data>
-  <data name="&gt;&gt;prcToKillButton.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="gamesButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="addItemButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="gamesListBox.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 8.25pt</value>
-  </data>
-  <data name="&gt;&gt;prcToKillListBox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="panel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="prcToKillButton.Text" xml:space="preserve">
-    <value>Processes to kill</value>
+  <data name="helpButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="removeButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3432,130 +3555,166 @@
         Fp/fj2n1OaOTygNB9B237oStggAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="removeButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 25</value>
-  </data>
-  <data name="&gt;&gt;prcToKillListBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="runOnExitListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="&gt;&gt;darkThmCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="autoclnCheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="prcToRunButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 107</value>
-  </data>
-  <data name="removeButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>443, 417</value>
-  </data>
-  <data name="runOnExitButton.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="prcToKillButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="runOnExitListBox.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;runOnExitButton.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="textBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 25</value>
-  </data>
-  <data name="darkThmCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 452</value>
-  </data>
-  <data name="&gt;&gt;autoclnCheckBox.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="gamesButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 13</value>
+  <data name="prcToRunListBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="autoclnCheckBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 25</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>482, 494</value>
+  <data name="&gt;&gt;prcToRunListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="autoloadCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>323, 452</value>
+  <data name="autoloadCheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
-  <data name="removeButton.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;runOnStartListBox.Parent" xml:space="preserve">
-    <value>panel</value>
-  </data>
-  <data name="&gt;&gt;autoclnCheckBox.Name" xml:space="preserve">
-    <value>autoclnCheckBox</value>
-  </data>
-  <data name="gamesButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="runOnExitButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;gamesButton.Name" xml:space="preserve">
-    <value>gamesButton</value>
-  </data>
-  <data name="runOnExitListBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 333</value>
-  </data>
-  <data name="browseButton.Enabled" type="System.Boolean, mscorlib">
+  <data name="removeButton.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="darkThmCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="autoloadCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 25</value>
   </data>
-  <data name="&gt;&gt;textBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tableLayoutPanel.Name" xml:space="preserve">
+    <value>tableLayoutPanel</value>
   </data>
-  <data name="prcToKillButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 13</value>
+  <data name="prcToKillListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 48</value>
   </data>
-  <data name="&gt;&gt;gamesButton.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="addItemButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;autoclnCheckBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="runOnStartListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 48</value>
   </data>
   <data name="runOnExitButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>298, 30</value>
   </data>
-  <data name="&gt;&gt;gamesListBox.Name" xml:space="preserve">
-    <value>gamesListBox</value>
-  </data>
-  <data name="&gt;&gt;browseButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="gamesListBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;runOnExitListBox.Parent" xml:space="preserve">
-    <value>panel</value>
-  </data>
-  <data name="gamesListBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
-  </data>
-  <data name="removeButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="runOnExitButton.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 30</value>
-  </data>
-  <data name="runOnStartButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="gamesButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="prcToRunButton.Text" xml:space="preserve">
-    <value>Processes to run</value>
+  <data name="&gt;&gt;gamesButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;runOnExitListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;runOnExitPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lngComboBox.Name" xml:space="preserve">
+    <value>lngComboBox</value>
+  </data>
+  <data name="runOnExitListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;runOnStartButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;runOnExitPanel.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="gamesButton.Text" xml:space="preserve">
+    <value>List of games</value>
+  </data>
+  <data name="prcToRunButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;prcToRunListBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;darkThmCheckBox.Name" xml:space="preserve">
+    <value>darkThmCheckBox</value>
+  </data>
+  <data name="textBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="runOnStartButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="darkThmCheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="autoloadCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;prcToKillButton.Parent" xml:space="preserve">
+    <value>prcToKillPanel</value>
+  </data>
+  <data name="&gt;&gt;autoloadCheckBox.Name" xml:space="preserve">
+    <value>autoloadCheckBox</value>
+  </data>
+  <data name="prcToKillListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="prcToRunListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 48</value>
+  </data>
+  <data name="runOnStartPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="gamesButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="prcToKillListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 38</value>
+  </data>
+  <data name="helpButton.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="runOnExitPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 100</value>
+  </data>
+  <data name="lngComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 452</value>
+  </data>
+  <data name="autoloadCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="darkThmCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 452</value>
+  </data>
+  <data name="&gt;&gt;prcToRunPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="browseButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;helpButton.Name" xml:space="preserve">
+    <value>helpButton</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 8.25pt</value>
+  </data>
+  <data name="prcToKillButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="prcToKillButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Andika, 8.25pt, style=Bold</value>
+  </data>
+  <data name="darkThmCheckBox.Text" xml:space="preserve">
+    <value>Dark theme</value>
+  </data>
+  <data name="&gt;&gt;runOnExitButton.Parent" xml:space="preserve">
+    <value>runOnExitPanel</value>
+  </data>
+  <data name="browseButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="runOnExitPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="autoclnCheckBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;textBox.Name" xml:space="preserve">
+    <value>textBox</value>
+  </data>
+  <data name="runOnStartButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>ru</value>
   </metadata>
 </root>
