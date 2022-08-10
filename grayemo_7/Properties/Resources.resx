@@ -118,10 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Andika_Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Andika-Regular.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Commissioner_Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Commissioner-Regular.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ic_confirm.svg-path835-398 (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_confirm.svg-path835-398 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="g7310 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\g7310 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Andika_Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Andika-Regular.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ic_directory.svg-rect833-154 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_directory.svg-rect833-154 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rect18040 (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rect18040 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rect18040 (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rect18040 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_remove.svg-rect1017-700 (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_remove.svg-rect1017-700 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

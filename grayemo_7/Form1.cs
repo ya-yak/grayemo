@@ -94,7 +94,7 @@ namespace grayemo
 
             InitializeComponent();
 
-            byte[] fontData = Properties.Resources.Andika_Regular;
+            byte[] fontData = Properties.Resources.Commissioner_Regular;
 
             IntPtr fontPtr = System.Runtime.InteropServices.Marshal.AllocCoTaskMem(fontData.Length);
 
@@ -102,13 +102,13 @@ namespace grayemo
 
             uint dummy = 0;
 
-            fonts.AddMemoryFont(fontPtr, Properties.Resources.Andika_Regular.Length);
+            fonts.AddMemoryFont(fontPtr, Properties.Resources.Commissioner_Regular.Length);
 
-            AddFontMemResourceEx(fontPtr, (uint) Properties.Resources.Andika_Regular.Length, IntPtr.Zero, ref dummy);
+            AddFontMemResourceEx(fontPtr, (uint) Properties.Resources.Commissioner_Regular.Length, IntPtr.Zero, ref dummy);
 
             System.Runtime.InteropServices.Marshal.FreeCoTaskMem(fontPtr);
 
-            myFont = new Font(fonts.Families[0], 8.25F);
+            myFont = new Font(fonts.Families[0], 9F);
 
             this.Font = myFont;
 
@@ -660,14 +660,24 @@ namespace grayemo
 
             foreach (Control c in controls)
             {
+
                 if (c is ListBox || c is TextBox || c is Button)
                 {
 
                     c.BackColor = bkgColor;
                     c.ForeColor = frgColor;
 
+                    c.Font = myFont;
+
                 }
-                else if (c is Label || c is CheckBox) c.ForeColor = frgColor;
+                else if (c is Label || c is CheckBox)
+                {
+
+                    c.ForeColor = frgColor;
+                    
+                    c.Font = myFont;
+
+                }
                 else if (c is Panel)
                 {
 
@@ -675,6 +685,8 @@ namespace grayemo
                     c.BackColor = bkgColor;
 
                 }
+                else c.Font = myFont;
+
             }
         }
 

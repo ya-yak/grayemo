@@ -64,7 +64,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="captionLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 46</value>
+    <value>128, 36</value>
   </data>
   <data name="captionLabel9.Text" xml:space="preserve">
     <value>Запустите</value>
@@ -74,25 +74,10 @@
 Нажмите стрелку вправо, чтобы продолжить.</value>
   </data>
   <data name="captionLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 46</value>
+    <value>182, 36</value>
   </data>
   <data name="captionLabel1.Text" xml:space="preserve">
     <value>Приветствуем!</value>
-  </data>
-  <data name="backButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAABgmlDQ1BJQ0MgcHJvZmlsZQAAKM+VkTlI
-        A0EYhb+siiKKgilELLZQKwNeiKVEUQQFiRHiUbi7MVHIbsJuxMZSsBUsPBqvwsZaWwtbQRA8QCytrBRt
-        RNZ/NkKCEMGBYT7ezHvMvAHtIGPZXmUX2E7ejY1G9cTMrF79jEYTjXQTMSwvNzE1Eqfs+LglpNabiMri
-        f6M+uehZENKFB62cmxdeEO5fzecU7wiHrSUjKXwq3OnKBYXvlW4W+EVxOmBNZYbdeGxIOCysp0vYLGFr
-        ybWF+4TbkrYj+VqiwEnFa4rtzIr1c0/1wrpFZ3pK6TJbGWWMCSbRMVlhmQx5IrI6onjEZD9axt8S+CfF
-        ZYprGUscw2SxMQI/6g9+d+ulensKSXVRqHry/bd2qN6Cr03f/zz0/a8jqHiEC6fozx7AwLvom0WtbR8a
-        1uHssqiZ23C+Ac0POcM1AqlCppZKweuJfNMMNF1D7Vyht599ju8gLl2NX8HuHnSkJXu+zLtrSnv780zQ
-        H9Fv1llyz2GKicAAAAAJcEhZcwAAXEQAAFxEAWtqgMgAAAAHdElNRQfmAhMQNDi7qxE3AAAAgUlEQVQ4
-        T2PABbQr7yUA8XsgXg8VIh5ANf+H4vdQYeIAmmYQToBKEQZomkHOd4JKEQZYNBtApQgDNM0gHACVIgyA
-        iivQNIPweSDeTwQuABmArpkkTLkLoN4gPwxgAM0Q0mIBBrAYQnw6gAE0Q0CY+JQIA2iGkJYXYABqCIHc
-        yMAAACPz6hN7vcPaAAAAAElFTkSuQmCC
-</value>
   </data>
   <data name="descrLabel7.Text" xml:space="preserve">
     <value>Чтобы редактировать эти списки, необходимо выбрать желаемую игру.
@@ -100,7 +85,7 @@
 Вы можете удалить элемент из списка, выбрав его и нажав кнопку с крестиком.</value>
   </data>
   <data name="captionLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 46</value>
+    <value>148, 36</value>
   </data>
   <data name="captionLabel7.Text" xml:space="preserve">
     <value>Управляйте</value>
@@ -110,7 +95,7 @@
 Список "Запустить в конце" определяет процессы, которые должны быть запущены в момент закрытия игры.</value>
   </data>
   <data name="captionLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 46</value>
+    <value>148, 36</value>
   </data>
   <data name="captionLabel6.Text" xml:space="preserve">
     <value>Управляйте</value>
@@ -120,7 +105,7 @@
 Список "Запустить процессы" является противоположностью списка "Остановить процессы".</value>
   </data>
   <data name="captionLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 46</value>
+    <value>148, 36</value>
   </data>
   <data name="captionLabel5.Text" xml:space="preserve">
     <value>Управляйте</value>
@@ -129,7 +114,7 @@
     <value>Для каждой игры можно управлять четырьмя категориями процессов: "Остановить процессы", "Запустить процессы", "Запустить в начале" и "Запустить в конце".</value>
   </data>
   <data name="captionLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 46</value>
+    <value>148, 36</value>
   </data>
   <data name="captionLabel4.Text" xml:space="preserve">
     <value>Управляйте</value>
@@ -138,7 +123,7 @@
     <value>Чтобы добавить игру, щелкните заголовок "Список игр" или список под ним. Введите имя исполняемого файла игры (Вы можете нажать ПКМ на игру и выбрать опцию "Открыть местоположение файла" в контекстном меню). Наконец, можно добавить игру, нажав кнопку с галочкой.</value>
   </data>
   <data name="captionLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 46</value>
+    <value>180, 36</value>
   </data>
   <data name="captionLabel3.Text" xml:space="preserve">
     <value>Добавьте игру</value>
@@ -147,7 +132,7 @@
     <value>Это приложение для управления процессами во время игры. С помощью нее Вы можете определить, какие приложения должны быть запущены или остановлены, если определенная игра открыта.</value>
   </data>
   <data name="captionLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 46</value>
+    <value>215, 36</value>
   </data>
   <data name="captionLabel2.Text" xml:space="preserve">
     <value>Как использовать</value>
@@ -156,25 +141,10 @@
     <value>Функцию управления процессами выполняет программа "grayemoProcess". Она может запускаться автоматически несколькими способами:</value>
   </data>
   <data name="captionLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 46</value>
+    <value>128, 36</value>
   </data>
   <data name="captionLabel8.Text" xml:space="preserve">
     <value>Запустите</value>
-  </data>
-  <data name="nextButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAABgmlDQ1BJQ0MgcHJvZmlsZQAAKM+VkTlI
-        A0EYhb+siiKKgilELLZQKwNeiKVEUQQFiRHiUbi7MVHIbsJuxMZSsBUsPBqvwsZaWwtbQRA8QCytrBRt
-        RNZ/NkKCEMGBYT7ezHvMvAHtIGPZXmUX2E7ejY1G9cTMrF79jEYTjXQTMSwvNzE1Eqfs+LglpNabiMri
-        f6M+uehZENKFB62cmxdeEO5fzecU7wiHrSUjKXwq3OnKBYXvlW4W+EVxOmBNZYbdeGxIOCysp0vYLGFr
-        ybWF+4TbkrYj+VqiwEnFa4rtzIr1c0/1wrpFZ3pK6TJbGWWMCSbRMVlhmQx5IrI6onjEZD9axt8S+CfF
-        ZYprGUscw2SxMQI/6g9+d+ulensKSXVRqHry/bd2qN6Cr03f/zz0/a8jqHiEC6fozx7AwLvom0WtbR8a
-        1uHssqiZ23C+Ac0POcM1AqlCppZKweuJfNMMNF1D7Vyht599ju8gLl2NX8HuHnSkJXu+zLtrSnv780zQ
-        H9Fv1llyz2GKicAAAAAJcEhZcwAAXEQAAFxEAWtqgMgAAAAHdElNRQfmAhMQNTXcAVzLAAAAbklEQVQ4
-        T2PAB7Qr760H4vdAnAAVIg1ANf+HYtINAWlCMoBsQ5yAmGKXGFDDkAAkAxCGABkFQLyfCHweiJENAOEK
-        kAHogiRhyl1ALAAqxh4GxACgYvJjAaiY/HQAUoykkTTNIADUQHHiIZAbGRgArLXqE8nZz8gAAAAASUVO
-        RK5CYII=
-</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

@@ -64,36 +64,20 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="captionLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 46</value>
+    <value>119, 36</value>
   </data>
   <data name="captionLabel9.Text" xml:space="preserve">
     <value>Запустіть</value>
   </data>
   <data name="descrLabel1.Text" xml:space="preserve">
     <value>Ми маємо кілька порад для Вас.
-Натисніть стрілочку праворуч, щоб продовжити.
-</value>
+Натисніть стрілочку праворуч, щоб продовжити.</value>
   </data>
   <data name="captionLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 46</value>
+    <value>108, 36</value>
   </data>
   <data name="captionLabel1.Text" xml:space="preserve">
     <value>Вітаємо!</value>
-  </data>
-  <data name="backButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAABgmlDQ1BJQ0MgcHJvZmlsZQAAKM+VkTlI
-        A0EYhb+siiKKgilELLZQKwNeiKVEUQQFiRHiUbi7MVHIbsJuxMZSsBUsPBqvwsZaWwtbQRA8QCytrBRt
-        RNZ/NkKCEMGBYT7ezHvMvAHtIGPZXmUX2E7ejY1G9cTMrF79jEYTjXQTMSwvNzE1Eqfs+LglpNabiMri
-        f6M+uehZENKFB62cmxdeEO5fzecU7wiHrSUjKXwq3OnKBYXvlW4W+EVxOmBNZYbdeGxIOCysp0vYLGFr
-        ybWF+4TbkrYj+VqiwEnFa4rtzIr1c0/1wrpFZ3pK6TJbGWWMCSbRMVlhmQx5IrI6onjEZD9axt8S+CfF
-        ZYprGUscw2SxMQI/6g9+d+ulensKSXVRqHry/bd2qN6Cr03f/zz0/a8jqHiEC6fozx7AwLvom0WtbR8a
-        1uHssqiZ23C+Ac0POcM1AqlCppZKweuJfNMMNF1D7Vyht599ju8gLl2NX8HuHnSkJXu+zLtrSnv780zQ
-        H9Fv1llyz2GKicAAAAAJcEhZcwAAXEQAAFxEAWtqgMgAAAAHdElNRQfmAhMQNDi7qxE3AAAAgUlEQVQ4
-        T2PABbQr7yUA8XsgXg8VIh5ANf+H4vdQYeIAmmYQToBKEQZomkHOd4JKEQZYNBtApQgDNM0gHACVIgyA
-        iivQNIPweSDeTwQuABmArpkkTLkLoN4gPwxgAM0Q0mIBBrAYQnw6gAE0Q0CY+JQIA2iGkJYXYABqCIHc
-        yMAAACPz6hN7vcPaAAAAAElFTkSuQmCC
-</value>
   </data>
   <data name="descrLabel7.Text" xml:space="preserve">
     <value>Щоб редагувати ці списки, ви маєте вибрати бажану гру.
@@ -101,30 +85,27 @@
 Ви можете видалити елемент зі списку, вибравши його та натиснувши кнопку з хрестиком.</value>
   </data>
   <data name="captionLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 46</value>
+    <value>107, 36</value>
   </data>
   <data name="captionLabel7.Text" xml:space="preserve">
-    <value>Керуйте
-</value>
+    <value>Керуйте</value>
   </data>
   <data name="descrLabel6.Text" xml:space="preserve">
     <value>Список "Запустити на початку" визначає процеси, котрі мають бути запущеними у момент відкриття гри.
-Список "Запустити в кінці" визначає процеси, котрі мають бути запущеними у момент закриття гри.
-</value>
+Список "Запустити в кінці" визначає процеси, котрі мають бути запущеними у момент закриття гри.</value>
   </data>
   <data name="captionLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 46</value>
+    <value>107, 36</value>
   </data>
   <data name="captionLabel6.Text" xml:space="preserve">
     <value>Керуйте</value>
   </data>
   <data name="descrLabel5.Text" xml:space="preserve">
     <value>Список "Зупинити процеси" визначає процеси, котрі мають бути зупиненими, якщо гра відкрита, і запущеними - якщо закрита.
-Список "Запустити процеси" є протилежністю списку "Зупинити процеси".
-</value>
+Список "Запустити процеси" є протилежністю списку "Зупинити процеси".</value>
   </data>
   <data name="captionLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 46</value>
+    <value>107, 36</value>
   </data>
   <data name="captionLabel5.Text" xml:space="preserve">
     <value>Керуйте</value>
@@ -133,7 +114,7 @@
     <value>Ви можете керувати чотирма категоріями процесів для кожної гри: "Зупинити процеси", "Запустити процеси", "Запустити на початку" та "Запустити в кінці".</value>
   </data>
   <data name="captionLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 46</value>
+    <value>107, 36</value>
   </data>
   <data name="captionLabel4.Text" xml:space="preserve">
     <value>Керуйте</value>
@@ -142,7 +123,7 @@
     <value>Щоб додати гру, натисніть заголовок "Список ігор" або сам список під ним. Введіть назву виконуваного файлу гри (Ви можете натиснути ПКМ гру та вибрати опцію "Відкрити розташування файлу" у контекстному меню). Нарешті, Ви можете додати гру, натиснувши кнопку з галочкою.</value>
   </data>
   <data name="captionLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 46</value>
+    <value>154, 36</value>
   </data>
   <data name="captionLabel3.Text" xml:space="preserve">
     <value>Додайте гру</value>
@@ -151,7 +132,7 @@
     <value>Це програма для керування процесами під час гри. За допомогою неї Ви можете визначити, які програми повинні бути запущенними або зупиненими, якщо певна гра відкрита.</value>
   </data>
   <data name="captionLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 46</value>
+    <value>242, 36</value>
   </data>
   <data name="captionLabel2.Text" xml:space="preserve">
     <value>Як використовувати</value>
@@ -160,25 +141,10 @@
     <value>Функцію керування процесами виконує програма "grayemoProcess". Вона може запускатися автоматично кількома способами:</value>
   </data>
   <data name="captionLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 46</value>
+    <value>119, 36</value>
   </data>
   <data name="captionLabel8.Text" xml:space="preserve">
     <value>Запустіть</value>
-  </data>
-  <data name="nextButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAABgmlDQ1BJQ0MgcHJvZmlsZQAAKM+VkTlI
-        A0EYhb+siiKKgilELLZQKwNeiKVEUQQFiRHiUbi7MVHIbsJuxMZSsBUsPBqvwsZaWwtbQRA8QCytrBRt
-        RNZ/NkKCEMGBYT7ezHvMvAHtIGPZXmUX2E7ejY1G9cTMrF79jEYTjXQTMSwvNzE1Eqfs+LglpNabiMri
-        f6M+uehZENKFB62cmxdeEO5fzecU7wiHrSUjKXwq3OnKBYXvlW4W+EVxOmBNZYbdeGxIOCysp0vYLGFr
-        ybWF+4TbkrYj+VqiwEnFa4rtzIr1c0/1wrpFZ3pK6TJbGWWMCSbRMVlhmQx5IrI6onjEZD9axt8S+CfF
-        ZYprGUscw2SxMQI/6g9+d+ulensKSXVRqHry/bd2qN6Cr03f/zz0/a8jqHiEC6fozx7AwLvom0WtbR8a
-        1uHssqiZ23C+Ac0POcM1AqlCppZKweuJfNMMNF1D7Vyht599ju8gLl2NX8HuHnSkJXu+zLtrSnv780zQ
-        H9Fv1llyz2GKicAAAAAJcEhZcwAAXEQAAFxEAWtqgMgAAAAHdElNRQfmAhMQNTXcAVzLAAAAbklEQVQ4
-        T2PAB7Qr760H4vdAnAAVIg1ANf+HYtINAWlCMoBsQ5yAmGKXGFDDkAAkAxCGABkFQLyfCHweiJENAOEK
-        kAHogiRhyl1ALAAqxh4GxACgYvJjAaiY/HQAUoykkTTNIADUQHHiIZAbGRgArLXqE8nZz8gAAAAASUVO
-        RK5CYII=
-</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

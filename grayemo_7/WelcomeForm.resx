@@ -57,25 +57,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="descrLabel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 9pt</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="descrLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="descrLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 46</value>
+    <value>0, 38</value>
   </data>
   <data name="descrLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 255</value>
+    <value>260, 205</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="descrLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="descrLabel9.Text" xml:space="preserve">
-    <value>- by creating shortcut in 'Autostart' folder in 'Start' menu
+    <value>- by creating shortcut in 'Autostart' folder in Start menu
 - by adding in Task Scheduler
-- by adding in other developers' schedulers (e. g. 'Z-Cron').</value>
+- by adding in other developers' schedulers (e. g. Z-Cron).</value>
   </data>
   <data name="&gt;&gt;descrLabel9.Name" xml:space="preserve">
     <value>descrLabel9</value>
@@ -93,7 +96,7 @@
     <value>True</value>
   </data>
   <data name="captionLabel9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 18pt</value>
+    <value>Commissioner, 18pt</value>
   </data>
   <data name="captionLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -102,7 +105,7 @@
     <value>0, 0</value>
   </data>
   <data name="captionLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 46</value>
+    <value>58, 36</value>
   </data>
   <data name="captionLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -122,15 +125,18 @@
   <data name="&gt;&gt;captionLabel9.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="panel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 8.25pt</value>
+  </data>
   <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>11, 11</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="panel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 301</value>
+    <value>260, 243</value>
   </data>
   <data name="panel9.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -150,14 +156,17 @@
   <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="descrLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 9pt</value>
+  </data>
   <data name="descrLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="descrLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 46</value>
+    <value>0, 38</value>
   </data>
   <data name="descrLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 255</value>
+    <value>260, 205</value>
   </data>
   <data name="descrLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -182,7 +191,7 @@ Click on right arrow to continue.</value>
     <value>True</value>
   </data>
   <data name="captionLabel1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 18pt</value>
+    <value>Commissioner, 18pt</value>
   </data>
   <data name="captionLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -191,7 +200,7 @@ Click on right arrow to continue.</value>
     <value>0, 0</value>
   </data>
   <data name="captionLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 46</value>
+    <value>122, 36</value>
   </data>
   <data name="captionLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -211,14 +220,17 @@ Click on right arrow to continue.</value>
   <data name="&gt;&gt;captionLabel1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="panel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 8.25pt</value>
+  </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>11, 11</value>
   </data>
   <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 301</value>
+    <value>260, 243</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -241,14 +253,17 @@ Click on right arrow to continue.</value>
   <data name="backButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="backButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 8.25pt</value>
+  </data>
   <data name="backButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="backButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 322</value>
+    <value>215, 260</value>
   </data>
   <data name="backButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="backButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>25, 25</value>
@@ -268,14 +283,17 @@ Click on right arrow to continue.</value>
   <data name="&gt;&gt;backButton.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="descrLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 9pt</value>
+  </data>
   <data name="descrLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="descrLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 46</value>
+    <value>0, 38</value>
   </data>
   <data name="descrLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 255</value>
+    <value>260, 205</value>
   </data>
   <data name="descrLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -301,7 +319,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>True</value>
   </data>
   <data name="captionLabel7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 18pt</value>
+    <value>Commissioner, 18pt</value>
   </data>
   <data name="captionLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -310,7 +328,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>0, 0</value>
   </data>
   <data name="captionLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 46</value>
+    <value>99, 36</value>
   </data>
   <data name="captionLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -330,14 +348,17 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="&gt;&gt;captionLabel7.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="panel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 8.25pt</value>
+  </data>
   <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>11, 11</value>
   </data>
   <data name="panel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 301</value>
+    <value>260, 243</value>
   </data>
   <data name="panel7.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -357,14 +378,17 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="descrLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 9pt</value>
+  </data>
   <data name="descrLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="descrLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 46</value>
+    <value>0, 38</value>
   </data>
   <data name="descrLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 255</value>
+    <value>260, 205</value>
   </data>
   <data name="descrLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -389,7 +413,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>True</value>
   </data>
   <data name="captionLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 18pt</value>
+    <value>Commissioner, 18pt</value>
   </data>
   <data name="captionLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -398,7 +422,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>0, 0</value>
   </data>
   <data name="captionLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 46</value>
+    <value>99, 36</value>
   </data>
   <data name="captionLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -418,14 +442,17 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="&gt;&gt;captionLabel6.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="panel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 8.25pt</value>
+  </data>
   <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>11, 11</value>
   </data>
   <data name="panel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 301</value>
+    <value>260, 243</value>
   </data>
   <data name="panel6.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -445,14 +472,17 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="descrLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 9pt</value>
+  </data>
   <data name="descrLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="descrLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 46</value>
+    <value>0, 38</value>
   </data>
   <data name="descrLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 255</value>
+    <value>260, 205</value>
   </data>
   <data name="descrLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -477,7 +507,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>True</value>
   </data>
   <data name="captionLabel5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 18pt</value>
+    <value>Commissioner, 18pt</value>
   </data>
   <data name="captionLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -486,7 +516,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>0, 0</value>
   </data>
   <data name="captionLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 46</value>
+    <value>99, 36</value>
   </data>
   <data name="captionLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -506,14 +536,17 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="&gt;&gt;captionLabel5.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="panel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 8.25pt</value>
+  </data>
   <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>11, 11</value>
   </data>
   <data name="panel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 301</value>
+    <value>260, 243</value>
   </data>
   <data name="panel5.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -533,14 +566,17 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="descrLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 9pt</value>
+  </data>
   <data name="descrLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="descrLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 46</value>
+    <value>0, 38</value>
   </data>
   <data name="descrLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 255</value>
+    <value>260, 205</value>
   </data>
   <data name="descrLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -565,7 +601,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>True</value>
   </data>
   <data name="captionLabel4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 18pt</value>
+    <value>Commissioner, 18pt</value>
   </data>
   <data name="captionLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -574,7 +610,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>0, 0</value>
   </data>
   <data name="captionLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 46</value>
+    <value>99, 36</value>
   </data>
   <data name="captionLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -594,14 +630,17 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="&gt;&gt;captionLabel4.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="panel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 8.25pt</value>
+  </data>
   <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>11, 11</value>
   </data>
   <data name="panel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 301</value>
+    <value>260, 243</value>
   </data>
   <data name="panel4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -621,14 +660,17 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="descrLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 9pt</value>
+  </data>
   <data name="descrLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="descrLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 46</value>
+    <value>0, 38</value>
   </data>
   <data name="descrLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 255</value>
+    <value>260, 205</value>
   </data>
   <data name="descrLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -652,7 +694,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>True</value>
   </data>
   <data name="captionLabel3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 18pt</value>
+    <value>Commissioner, 18pt</value>
   </data>
   <data name="captionLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -661,7 +703,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>0, 0</value>
   </data>
   <data name="captionLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 46</value>
+    <value>142, 36</value>
   </data>
   <data name="captionLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -681,14 +723,17 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="&gt;&gt;captionLabel3.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="panel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 8.25pt</value>
+  </data>
   <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>11, 11</value>
   </data>
   <data name="panel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 301</value>
+    <value>260, 243</value>
   </data>
   <data name="panel3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -708,14 +753,17 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="descrLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 9pt</value>
+  </data>
   <data name="descrLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="descrLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 46</value>
+    <value>0, 38</value>
   </data>
   <data name="descrLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 255</value>
+    <value>260, 205</value>
   </data>
   <data name="descrLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -739,7 +787,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>True</value>
   </data>
   <data name="captionLabel2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 18pt</value>
+    <value>Commissioner, 18pt</value>
   </data>
   <data name="captionLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -748,7 +796,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>0, 0</value>
   </data>
   <data name="captionLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 46</value>
+    <value>137, 36</value>
   </data>
   <data name="captionLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -768,14 +816,17 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="&gt;&gt;captionLabel2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="panel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 8.25pt</value>
+  </data>
   <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>11, 11</value>
   </data>
   <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 301</value>
+    <value>260, 243</value>
   </data>
   <data name="panel2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -795,14 +846,17 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="descrLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 9pt</value>
+  </data>
   <data name="descrLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="descrLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 46</value>
+    <value>0, 38</value>
   </data>
   <data name="descrLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 255</value>
+    <value>260, 205</value>
   </data>
   <data name="descrLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -826,7 +880,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>True</value>
   </data>
   <data name="captionLabel8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 18pt</value>
+    <value>Commissioner, 18pt</value>
   </data>
   <data name="captionLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -835,7 +889,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>0, 0</value>
   </data>
   <data name="captionLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 46</value>
+    <value>58, 36</value>
   </data>
   <data name="captionLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -855,14 +909,17 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="&gt;&gt;captionLabel8.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="panel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 8.25pt</value>
+  </data>
   <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>11, 11</value>
   </data>
   <data name="panel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 301</value>
+    <value>260, 243</value>
   </data>
   <data name="panel8.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -885,14 +942,17 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="nextButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="nextButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 8.25pt</value>
+  </data>
   <data name="nextButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="nextButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>247, 322</value>
+    <value>246, 260</value>
   </data>
   <data name="nextButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="nextButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>25, 25</value>
@@ -912,6 +972,9 @@ You can remove a item from the list by selecting it and clicking the cross butto
   <data name="&gt;&gt;nextButton.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
+  <data name="mainPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Commissioner, 8.25pt</value>
+  </data>
   <data name="mainPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -919,7 +982,7 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>3, 2, 3, 2</value>
   </data>
   <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 360</value>
+    <value>282, 297</value>
   </data>
   <data name="mainPanel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -940,13 +1003,13 @@ You can remove a item from the list by selecting it and clicking the cross butto
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 23</value>
+    <value>7, 19</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>284, 360</value>
+    <value>282, 297</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Andika, 9pt</value>
+    <value>Commissioner, 9pt</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4420,14 +4483,11 @@ You can remove a item from the list by selecting it and clicking the cross butto
         ft/73reGMYP/H35ETy1hut/kAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 5, 3, 5</value>
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Welcome to 'Grayemo'!</value>
+    <value>Welcome to Grayemo!</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>WelcomeForm</value>

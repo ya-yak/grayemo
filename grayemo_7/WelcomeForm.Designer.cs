@@ -124,6 +124,7 @@
             // backButton
             // 
             resources.ApplyResources(this.backButton, "backButton");
+            this.backButton.Image = global::grayemo.Properties.Resources.rect18040__3_;
             this.backButton.Name = "backButton";
             this.backButton.UseVisualStyleBackColor = true;
             this.backButton.Click += new System.EventHandler(this.onBackButtonClicked);
@@ -250,6 +251,7 @@
             // nextButton
             // 
             resources.ApplyResources(this.nextButton, "nextButton");
+            this.nextButton.Image = global::grayemo.Properties.Resources.rect18040__4_;
             this.nextButton.Name = "nextButton";
             this.nextButton.UseVisualStyleBackColor = true;
             this.nextButton.Click += new System.EventHandler(this.onNextButtonClicked);

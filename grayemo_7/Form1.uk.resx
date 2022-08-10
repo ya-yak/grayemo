@@ -97,13 +97,6 @@
   <data name="darkThmCheckBox.Text" xml:space="preserve">
     <value>Темна тема</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel.RowCount" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
   <data name="runOnExitButton.Text" xml:space="preserve">
     <value>Запустити в кінці</value>
   </data>
@@ -115,9 +108,6 @@
   </data>
   <data name="prcToRunButton.Text" xml:space="preserve">
     <value>Запустити процеси</value>
-  </data>
-  <data name="autoloadCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>307, 452</value>
   </data>
   <data name="autoloadCheckBox.Text" xml:space="preserve">
     <value>Автозавантаження</value>

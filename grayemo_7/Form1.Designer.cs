@@ -67,6 +67,7 @@
             resources.ApplyResources(this.addItemButton, "addItemButton");
             this.addItemButton.BackColor = System.Drawing.Color.White;
             this.addItemButton.ForeColor = System.Drawing.Color.Black;
+            this.addItemButton.Image = global::grayemo.Properties.Resources.ic_confirm_svg_path835_398__3_;
             this.addItemButton.Name = "addItemButton";
             this.addItemButton.UseVisualStyleBackColor = false;
             this.addItemButton.Click += new System.EventHandler(this.onItemAdded);
@@ -100,6 +101,7 @@
             resources.ApplyResources(this.removeButton, "removeButton");
             this.removeButton.BackColor = System.Drawing.Color.White;
             this.removeButton.ForeColor = System.Drawing.Color.Black;
+            this.removeButton.Image = global::grayemo.Properties.Resources.ic_remove_svg_rect1017_700__3_;
             this.removeButton.Name = "removeButton";
             this.removeButton.UseVisualStyleBackColor = false;
             this.removeButton.Click += new System.EventHandler(this.onItemDeleted);
@@ -160,9 +162,9 @@
             // 
             // runOnExitPanel
             // 
-            resources.ApplyResources(this.runOnExitPanel, "runOnExitPanel");
             this.runOnExitPanel.Controls.Add(this.runOnExitButton);
             this.runOnExitPanel.Controls.Add(this.runOnExitListBox);
+            resources.ApplyResources(this.runOnExitPanel, "runOnExitPanel");
             this.runOnExitPanel.Name = "runOnExitPanel";
             // 
             // runOnExitButton
@@ -188,9 +190,9 @@
             // 
             // runOnStartPanel
             // 
-            resources.ApplyResources(this.runOnStartPanel, "runOnStartPanel");
             this.runOnStartPanel.Controls.Add(this.runOnStartButton);
             this.runOnStartPanel.Controls.Add(this.runOnStartListBox);
+            resources.ApplyResources(this.runOnStartPanel, "runOnStartPanel");
             this.runOnStartPanel.Name = "runOnStartPanel";
             // 
             // runOnStartButton
@@ -216,9 +218,9 @@
             // 
             // prcToKillPanel
             // 
-            resources.ApplyResources(this.prcToKillPanel, "prcToKillPanel");
             this.prcToKillPanel.Controls.Add(this.prcToKillButton);
             this.prcToKillPanel.Controls.Add(this.prcToKillListBox);
+            resources.ApplyResources(this.prcToKillPanel, "prcToKillPanel");
             this.prcToKillPanel.Name = "prcToKillPanel";
             // 
             // prcToKillButton
@@ -234,9 +236,9 @@
             // 
             // prcToRunPanel
             // 
-            resources.ApplyResources(this.prcToRunPanel, "prcToRunPanel");
             this.prcToRunPanel.Controls.Add(this.prcToRunButton);
             this.prcToRunPanel.Controls.Add(this.prcToRunListBox);
+            resources.ApplyResources(this.prcToRunPanel, "prcToRunPanel");
             this.prcToRunPanel.Name = "prcToRunPanel";
             // 
             // prcToRunButton
@@ -294,6 +296,7 @@
             resources.ApplyResources(this.browseButton, "browseButton");
             this.browseButton.BackColor = System.Drawing.Color.White;
             this.browseButton.ForeColor = System.Drawing.Color.Black;
+            this.browseButton.Image = global::grayemo.Properties.Resources.ic_directory_svg_rect833_154__2_;
             this.browseButton.Name = "browseButton";
             this.browseButton.UseVisualStyleBackColor = false;
             this.browseButton.Click += new System.EventHandler(this.onGamesBrowse);
@@ -310,9 +313,13 @@
             this.panel.PerformLayout();
             this.tableLayoutPanel.ResumeLayout(false);
             this.runOnExitPanel.ResumeLayout(false);
+            this.runOnExitPanel.PerformLayout();
             this.runOnStartPanel.ResumeLayout(false);
+            this.runOnStartPanel.PerformLayout();
             this.prcToKillPanel.ResumeLayout(false);
+            this.prcToKillPanel.PerformLayout();
             this.prcToRunPanel.ResumeLayout(false);
+            this.prcToRunPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }

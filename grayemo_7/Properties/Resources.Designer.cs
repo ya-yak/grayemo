@@ -71,11 +71,71 @@ namespace grayemo.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Commissioner_Regular {
+            get {
+                object obj = ResourceManager.GetObject("Commissioner_Regular", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap g7310__2_ {
             get {
                 object obj = ResourceManager.GetObject("g7310 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ic_confirm_svg_path835_398__3_ {
+            get {
+                object obj = ResourceManager.GetObject("ic_confirm.svg-path835-398 (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ic_directory_svg_rect833_154__2_ {
+            get {
+                object obj = ResourceManager.GetObject("ic_directory.svg-rect833-154 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ic_remove_svg_rect1017_700__3_ {
+            get {
+                object obj = ResourceManager.GetObject("ic_remove.svg-rect1017-700 (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rect18040__3_ {
+            get {
+                object obj = ResourceManager.GetObject("rect18040 (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rect18040__4_ {
+            get {
+                object obj = ResourceManager.GetObject("rect18040 (4)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

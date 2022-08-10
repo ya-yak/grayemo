@@ -43,7 +43,7 @@ namespace grayemo
 
             InitializeComponent();
 
-            byte[] fontData = Properties.Resources.Andika_Regular;
+            byte[] fontData = Properties.Resources.Commissioner_Regular;
 
             IntPtr fontPtr = System.Runtime.InteropServices.Marshal.AllocCoTaskMem(fontData.Length);
 
@@ -51,14 +51,14 @@ namespace grayemo
 
             uint dummy = 0;
 
-            fonts.AddMemoryFont(fontPtr, Properties.Resources.Andika_Regular.Length);
+            fonts.AddMemoryFont(fontPtr, Properties.Resources.Commissioner_Regular.Length);
 
-            AddFontMemResourceEx(fontPtr, (uint)Properties.Resources.Andika_Regular.Length, IntPtr.Zero, ref dummy);
+            AddFontMemResourceEx(fontPtr, (uint)Properties.Resources.Commissioner_Regular.Length, IntPtr.Zero, ref dummy);
 
             System.Runtime.InteropServices.Marshal.FreeCoTaskMem(fontPtr);
 
-            captionFont = new Font(fonts.Families[0], 16.5F);
-            descrFont = new Font(fonts.Families[0], 8.25F);
+            captionFont = new Font(fonts.Families[0], 18F);
+            descrFont = new Font(fonts.Families[0], 9F);
 
             panels.Add(1, panel1);
             panels.Add(2, panel2);
@@ -73,6 +73,8 @@ namespace grayemo
             string pattern = @"^\D+";
             Regex regex = new Regex(pattern);
             MatchCollection matchCollection;
+
+            this.Font = descrFont;
 
             foreach (KeyValuePair<int, Panel> p in panels)
             {
